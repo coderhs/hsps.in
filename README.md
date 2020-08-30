@@ -1,6 +1,6 @@
 # hsps.in
 
-Hugo Website content files for hsps.in
+Source code to generate hsps.in
 
 The website uses the theme: [Even](https://github.com/olOwOlo/hugo-theme-even)
 
