@@ -44,19 +44,21 @@ sequenceDiagrams:
 
 # About Harisankar P S (HsPS)
 
-I am a free spirited, free thinking, technology and open source software enthusiast. I have been working with web based softwares some way or the other for the past 14 years (since 2006). Started with building and customizing PHP scripts like PHP-Fusion, Joomla, Drupal, etc for personal projects to the present programming work with Ruby on Rails and React.JS/Vue.Js based applications. In between those years, I have also dabbled **[1]** in many technologies such Python, Java, Erlang, Lua, Elixir, Crystal Lang, Go, etc. I love working with servers, orchestrating them to run in unison like a musical symphony. 
+I am a free spirited, free thinking, technology and open source software enthusiast. I have been building web based softwares, some way or the other, for the past 14 years (since 2006). Started with customizing PHP scripts like PHP-Fusion, Joomla, Drupal, etc for personal projects, to the present professional developments using Ruby on Rails and React.JS/Vue.Js. In between those years, I have also dabbled **[1]** in many technologies such Python, Java, Erlang, Lua, Elixir, Crystal Lang, Go, etc. I love working with servers, orchestrating them to run in unison like a musical symphony. 
 
+{{% admonition info "" %}}
 For some people driving fast cars is whats makes them high, for me its making web app run faster.
+{{% /admonition %}}
 
-My creed in work, life, and business:
+My creed in my work, life, and business:
 
 {{% admonition quote "quote" %}}
 Simple but Jada **[2]**
 {{% /admonition %}}
 
-## Public Speaking
+## As a speaker
 
-I love sharing what I learn, even the simple thing. As a self learner (and slow learner) myself, I have gained tremendous knowledge and gain inspiration from those who take the effort to explain the small stuff in much detail. I try to do the same by speaking, coaching, and helping beginners.
+I love sharing what I learn, even the simple thing. As a self learner (and slow learner) myself, I have gained tremendous knowledge and gained life changing inspiration from those who take the effort to explain the small & complicated stuff in detail. I try to do the same by speaking, coaching, and helping beginners.
 
 {{% admonition success "Few Technical Conf/Meetups where i got an opportunity to speak" %}}
 * Ruby Conf Taiwan, 2016
