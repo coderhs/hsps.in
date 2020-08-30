@@ -1,8 +1,8 @@
 ---
-title: "Intro"
+title: "About the Man"
 date: 2020-08-29T14:58:11-07:00
 lastmod: 2020-08-29T14:58:11-07:00
-draft: false
+draft: true
 keywords: []
 description: ""
 tags: []
@@ -39,5 +39,3 @@ sequenceDiagrams:
   options: ""
 
 ---
-
-<!--more-->
