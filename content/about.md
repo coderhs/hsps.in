@@ -44,12 +44,12 @@ sequenceDiagrams:
 
 # About Harisankar P S (HsPS)
 
-I am a free spirited, free thinking, technology and open source enthusiast. I have been building web based softwares, some way or the other, for the past 14 years (since 2006). Started with customizing PHP scripts like PHP-Fusion, Joomla, Drupal, etc for personal projects, to the present professional development using Ruby on Rails and React.JS/Vue.Js. In between those years, I have also dabbled **[1]** in many technologies such as Python, Java, Erlang, Lua, Elixir, Crystal Lang, Go, Typescript, to name a few.
+I am a free spirited, free thinking, technology and open source enthusiast. I have been building web based software(s), some way or the other, for the past 14 years (since 2006). Started with customizing PHP scripts like PHP-Fusion, Joomla, Drupal, etc for personal projects, to the present professional development using Ruby on Rails and React.JS/Vue.Js. In between those years, I have also dabbled **[1]** in many technologies such as Python, Java, Erlang, Lua, Elixir, Crystal Lang, Go, Typescript, to name a few.
 
 I love working with servers, orchestrating them to run in unison like a musical symphony. 
 
 {{% admonition info "" %}}
-For some people driving fast cars is whats makes them high, for me its making web app run faster.
+For some people driving fast cars is what makes them high, for me it's making web app run faster.
 {{% /admonition %}}
 
 My creed in my work, life, and business:
@@ -84,7 +84,7 @@ Professionally I have always been an entrepreneur working as a freelance program
 
 
 {{% admonition note "Notes" true %}}
-* **[1]** For me to say I dabbled or know a language, I would have write minimum of 1000+ lines of code in the language (and had someone pay me to write a script/program/solution for them in the said language)
+* **[1]** For me to say I dabbled or know a language, I would have written minimum of 1000+ lines of code in the language (and had someone pay me to write a script/program/solution for them in the said language)
 * **[2]** Jada is a term in my primary language malayalam meaning Amazing
 {{% /admonition %}}
 
