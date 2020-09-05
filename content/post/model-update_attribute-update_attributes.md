@@ -40,8 +40,8 @@ sequenceDiagrams:
 
 ---
 
-<!--more-->
 Lot of people might have a confusing between the functionality of update_attribute and update_attributes. The purpose of these functions can be understood from their name itself. the first one update_attribute would update a single attribute of the model
+<!--more-->
 
 Its used as
 
