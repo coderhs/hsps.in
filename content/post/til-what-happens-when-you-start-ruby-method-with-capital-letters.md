@@ -5,7 +5,7 @@ lastmod: 2020-08-30T11:46:25-07:00
 draft: false
 keywords: ['Ruby', 'Class', 'Objects', 'Basics']
 description: ""
-tags: ['Ruby']
+tags: ['Ruby', 'Tech']
 categories: ['TIL']
 author: "Harisankar P S"
 
