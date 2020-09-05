@@ -63,6 +63,7 @@ Simple but Jada **[2]**
 I love sharing what I learn, even the simple stuff. As a self learner (and slow learner) myself, I have gained tremendous knowledge and life changing inspiration from those who take the effort to explain the small & complicated stuff in much detail. I try to do the same by speaking, coaching, and helping beginners.
 
 {{% admonition success "Few Technical Conf/Meetups where i got an opportunity to speak" %}}
+
 * Ruby Conf Taiwan, 2016
 * Deccan Ruby Conf, 2017
 * PostgreSQL Conf India, 2017
@@ -72,15 +73,16 @@ I love sharing what I learn, even the simple stuff. As a self learner (and slow 
 * Ruby/Elixir Conf Taiwan, 2018
 * I have spoken countless times at Kerala Ruby Meetups
 * Have spoken ones at LA Ruby Meetup
+
 {{% /admonition %}}
 
 I have also spoken as an advocate for open source, diversity in tech, entrepreneurship, Linux, etc.
 
-I have also taken trainings for students and working professionals in Ruby on Rails as well. 
+I have given trainings and workshops for students and working professionals in Ruby on Rails as well.
 
 ## Work Experience
 
-Professionally I have always been an entrepreneur working as a freelance programmer, consultant, building products, and managing my own Rails Boutique Company.
+Professionally I have always been an entrepreneur working as a freelance programmer, consultant, building products, and managing my own software development company.
 
 
 {{% admonition note "Notes" true %}}
