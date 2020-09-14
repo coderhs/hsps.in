@@ -1,5 +1,5 @@
 ---
-title: "What You Lear From Binge Watching"
+title: "What You Learned From Binge Watching"
 date: 2020-09-13T18:42:35-07:00
 lastmod: 2020-09-13T18:42:35-07:00
 draft: false
