@@ -12,6 +12,19 @@ Instalation
 
 To run website run the command:
 
+note:
+Install hugo
+
+```sh
+sudo apt-get install hugo
+```
+
 ```sh
 hugo serve
+```
+
+Add an article
+
+```sh
+hugo new post/new-article-name.md
 ```
