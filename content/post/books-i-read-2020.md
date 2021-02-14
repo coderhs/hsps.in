@@ -118,6 +118,6 @@ The author took great time and effort to detail everything. Even did justice to 
 Keeping with the progress I made in 2020, I hope to read regularly and more in 2021. Reading, for me personally, activates my creativity more than just watching a movie, and that is my real aim with reading. I hope read at least 12 book this year, and already have a few titles in mind.
 
 
-[ ] Algorithms in Everyday Life
-[ ] The First Conspiracy: The Secret Plot to Kill George Washington - by Brad Meltzer and Josh Mensch
-[ ] A Promised Land - by Barack Obama
+* Algorithms in Everyday Life
+* The First Conspiracy: The Secret Plot to Kill George Washington - by Brad Meltzer and Josh Mensch
+* A Promised Land - by Barack Obama
