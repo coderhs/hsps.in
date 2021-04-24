@@ -28,3 +28,9 @@ Add an article
 ```sh
 hugo new post/new-article-name.md
 ```
+
+To deploy.
+
+Initial setup:
+
+Clone coderhs.github.io inside your project. Delete the public folder, rename 'coderhs.github.io' to folder named 'public'. Run the script `./deploy.sh`. The final output or live site can be see at hsps.in after this.
