@@ -1,5 +1,5 @@
 ---
-title: "Consequences of saying no"
+title: "Consequences of saying NO"
 date: 2021-04-24T08:31:46-07:00
 lastmod: 2021-04-24T08:31:46-07:00
 draft: false
