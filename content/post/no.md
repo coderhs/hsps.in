@@ -41,7 +41,7 @@ sequenceDiagrams:
 
 Disclaimer: This article is not against saying No. One should exercise no to protect ones individual wishes, freedom and mental health.
 
-This article is telling no or frequent no to your colleague(s), child or partner for something they want to do.
+This article is about consequence of saying no or frequent no to your colleague(s), child or partner for something they want to do.
 
 When you tell no, three things can happen.
 
