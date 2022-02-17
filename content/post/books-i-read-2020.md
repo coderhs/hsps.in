@@ -69,7 +69,7 @@ by Neil Gaiman
 This was recommended to me by my cousin. Out of all the books, I would say this was most humorous one, and a good fantasy. I loved the growth of the character and the brothers realizing what both wanted in life.
 
 
-# Blue Boom - Lee Child
+# Blue Moon - Lee Child
 
 by Lee Child
 
