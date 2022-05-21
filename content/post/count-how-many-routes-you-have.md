@@ -42,6 +42,8 @@ sequenceDiagrams:
 
 It start with one, then two and it keeps on growing. The number of routes in your ruby on rails project can be a reflection of how complex your project is becoming. And if you are curious like me to know how many routes your project has, just run the following command in your rails console.
 
+<!--more-->
+
 ```rb
 ::Rails.application.routes.routes.size
 ```
