@@ -46,11 +46,11 @@ As a followup on my 2020 article on the list of books I have read in 2020. Here 
 
 I read a total of 8 books this year. Which was the same number of books I read last year. So hi5 to me for consistency.
 
-[x] The first conspiracy
-[x] Promised Land - Obama
-[x] Night School - Lee Child
-[x] Eagle Station - Dale Brown
-[x] Murder House - James Paterson
-[x] One arranged Murder - Chatan Bhagat
-[x] Psychology of Money
-[x] The midnight Lane - Lee Child
+* The first conspiracy
+* Promised Land - Obama
+* Night School - Lee Child
+* Eagle Station - Dale Brown
+* Murder House - James Paterson
+* One arranged Murder - Chatan Bhagat
+* Psychology of Money
+* The midnight Lane - Lee Child
