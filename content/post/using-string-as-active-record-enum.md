@@ -104,6 +104,20 @@ class Article < ActiveModel
 end
 ```
 
+The above code is equivalent to writing like below.
+
+```rb
+class Article < ActiveModel
+  DRAFT     = 'draft'.freeze
+  PUBLISHED = 'published'.freeze
+  STATUSES  = [DRAFT. PUBLISHED]
+  enum status: {
+    draft: DRAFT,
+    published: PUBLISHED
+  }
+end
+```
+
 In rails 7.0 its much more cleaner to use string.
 
 ```rb
