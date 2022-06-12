@@ -47,7 +47,7 @@ Dark mode or night mode is becoming more and more popular these days. As the amo
 * On a **`CRT screen`**. The electron beam is turned off as it passes the pixel. Producing no phosphorescent glow.
 * On an **`e-Ink screen`**. Little spherical beads which are half black/half white, are rotated so their black side is facing outwards.
 
-Regardless as you can see, darker colors or more towards black the theme is the less lights are emitted and less strain to the eye. For me personally who spend more time in front of the computer than anything else having night color apps in your computer is god send. So when I myself have been a huge advocate of using night color/night mode in computer to improve developer health, but having a website so bright looked like an irony. Hence this article and why my blog has a dark mode now.
+Regardless as you can see, darker colors results in less lights being emitted and leading to less strain to the eye. As a person who spend more time in front of a screen, I cannot fathom how useful this is. I have been a huge advocate of using night color/night mode in computer to improve developer health. Hence this article and why my blog has a dark mode now.
 
 <!--more-->
 
