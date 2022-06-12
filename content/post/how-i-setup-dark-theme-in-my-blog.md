@@ -55,7 +55,6 @@ My first step was to see if there was anything that could change my theme automa
 
 I used the library [Darkmode.Js](https://darkmodejs.learn.uno/). And then wrote a `dark.scss`, to overwrite few classes when the darkmode is activated.
 
-
 ```css
 .darkmode--activated {
   .main {
@@ -111,3 +110,5 @@ I used the library [Darkmode.Js](https://darkmodejs.learn.uno/). And then wrote 
 ```
 
 I like to write scss so that I can have variables in my css file. Using variables instead of hard coding the color code to black in each location, allows me to easily change the color in future, instead of having to search and replace black at all location.
+
+Let me know if you are aware of any library that automatically/easily covert a template to dark mode. Also if I have missed something that you feel could be useful or important.
