@@ -40,7 +40,7 @@ sequenceDiagrams:
 
 ---
 
-Note: I am using Aprtment gem to manage my multi schema database, and this article is written with expectation you know and use that gem.
+Note: I am using Apartment gem to manage my multi schema database, and this article is written with expectation you know and use that gem.
 
 When you have multiple schema in your rails application, it is important for them to remain consistent. Rails migration is run by keeping track of the timestamp prefixed in front of its file name, it store's the database. So when you restore a schema that hasn't ran the migration, but rest of the schema's has it rails thinks its already ran the migration. Rails look at the main / default schema to know if has ran the migrations then follow up on the rest.
 
