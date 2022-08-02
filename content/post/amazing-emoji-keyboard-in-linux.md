@@ -45,16 +45,25 @@ windows to Linux was over 13-14 years ago. I didn't much from the windows world 
 files. But moving from macOS to Linux, has been a bit tough. KDE has been able to provide me with everything I want and
 more. The one thing that I missed the most was the emoji keyboard, with easy to launch shortcut.
 
-My usage of emoj was at its peak during macOS days, I used emoji for my communciations, commits, function name and
+My usage of emoji was at its peak during macOS days, I used emoji for my communications, commits, function name and
 even terminal aliases. 😈 Not everyone was fan of my emoji usages, but i loved it.
 
 <!--more-->
-
 
 After moving back to linux, I missed it quite a bit and always have been on the lookout for a good substitute.
 Today, I finally found it.
 
 https://github.com/cspeterson/splatmoji
+
+Now, KDE(Kubuntu) has an emoji selector/keyboard, but the flow is not the same as in macOS.
+
+The workflow macOS has was:
+1. you press ctrl+shift+space
+2. the emoji keyboard open
+3. you select the emoji you want
+4. Its pasted on the cursor location - be it terminal/document/anywhere that accepts text
+
+## Installation
 
 I recommend installing it as a debian package and then customizing it.
 
