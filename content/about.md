@@ -1,5 +1,5 @@
 ---
-title: "About the man"
+title: "About he/him"
 date: 2020-08-29T15:22:34-07:00
 lastmod: 2020-08-29T15:22:34-07:00
 draft: false
