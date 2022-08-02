@@ -55,6 +55,8 @@ Today, I finally found it.
 
 https://github.com/cspeterson/splatmoji
 
+![Source: https://github.com/cspeterson/splatmoji](https://raw.githubusercontent.com/cspeterson/splatmoji/master/splatmoji.gif)
+
 Now, KDE(Kubuntu) has an emoji selector/keyboard, but the flow is not the same as in macOS.
 
 The workflow macOS has was:
