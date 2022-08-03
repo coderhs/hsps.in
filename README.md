@@ -43,4 +43,4 @@ git clone git@github.com:coderhs/coderhs.github.io.git public
 
 Run the script `./deploy.sh`.
 
-The final output or live site can be see at hsps.in after this.
+The final output or live site can be seen at hsps.in after this.
