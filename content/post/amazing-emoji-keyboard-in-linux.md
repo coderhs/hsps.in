@@ -40,13 +40,13 @@ sequenceDiagrams:
 
 ---
 
-I am a developer who moved from Windows, to Linux, to macOS, to Linux. A typical developers joruney 😆. So moving from
-windows to Linux was over 13-14 years ago. I didn't much from the windows world other tham games and single executable
+I am a developer who moved from Windows, to Linux, to macOS, to Linux. A typical developer's journey 😆. So moving from
+windows to Linux was over 13-14 years ago. I didn't do much from the windows world other than games and single executable
 files. But moving from macOS to Linux, has been a bit tough. KDE has been able to provide me with everything I want and
 more. The one thing that I missed the most was the emoji keyboard, with easy to launch shortcut.
 
 My usage of emoji was at its peak during macOS days, I used emoji for my communications, commits, function name and
-even terminal aliases. 😈 Not everyone was fan of my emoji usages, but i loved it.
+even terminal aliases. 😈 Not everyone was a fan of my emoji usages, but I loved it.
 
 <!--more-->
 
@@ -60,9 +60,9 @@ https://github.com/cspeterson/splatmoji
 Now, KDE(Kubuntu) has an emoji selector/keyboard, but the flow is not the same as in macOS.
 
 The workflow macOS has was:
-1. you press ctrl+shift+space
-2. the emoji keyboard open
-3. you select the emoji you want
+1. You press ctrl+shift+space
+2. The emoji keyboard opens 
+3. You select the emoji you want
 4. Its pasted on the cursor location - be it terminal/document/anywhere that accepts text
 
 ## Installation
@@ -82,7 +82,7 @@ Test it:
 splatmoji copy
 ```
 
-Now once tested, we need to do some customization. Followed by setting up keyboard shortcut to launch it for easy access.
+Now, once tested, we need to do some customization followed by setting up keyboard shortcut to launch it for easy access.
 
 ## Customization
 
@@ -106,8 +106,8 @@ I need this because ctrl+shift+v is paste for me and not the default ctrl+v
 ![System Shortcuts > Custom Shortcuts](/images/splatmoji_kde_shortcut/new_location.png)
 
 2. `Edit > New > Global Shortcut > Command/URL`
-3. Give it a name Emoji (or anything you like)
-4. Trigger (Trigger tab): set the short cut you want, I used `ctrl+alt+space`.
+3. Give it a name or Emoji (or anything you like)
+4. Trigger (Trigger tab): set the short cut you want. I used `ctrl+alt+space`.
 
 ![Trigger tab](/images/splatmoji_kde_shortcut/trigger_tab.png)
 
@@ -117,13 +117,13 @@ I need this because ctrl+shift+v is paste for me and not the default ctrl+v
 
 ## More Emoji
 
-Even though there are a lot of emoji in the repo, my usage requires more 😁.
-To feed ones greed, they can create the following folder
+Even though there are a lot of emojis in the repo, my usage requires more 😁.
+To feed one's greed, they can create the following folder. 
 
 ```sh
 /home/coderhs/.local/share/splatmoji/data
 ```
-then place emoji's inside a tsv file as follows. `<Emoji source name>/<any_name>.tsv`
+Then place emojis inside a tsv file as follows. `<Emoji source name>/<any_name>.tsv`
 
 A simple collection to add:
 
