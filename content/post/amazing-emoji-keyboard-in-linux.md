@@ -61,7 +61,7 @@ Now, KDE(Kubuntu) has an emoji selector/keyboard, but the flow is not the same a
 
 The workflow macOS has was:
 1. You press ctrl+shift+space
-2. The emoji keyboard opens 
+2. The emoji keyboard opens
 3. You select the emoji you want
 4. Its pasted on the cursor location - be it terminal/document/anywhere that accepts text
 
@@ -73,7 +73,7 @@ I recommend installing it as a debian package and then customizing it.
 ```sh
 sudo apt-get install xdotool rofi xsel
 wget https://github.com/cspeterson/splatmoji/releases/download/v1.2.0/splatmoji_1.2.0_all.deb
-sudo dpkg -l splatmoji_1.2.0_all.deb
+sudo dpkg -i splatmoji_1.2.0_all.deb
 ```
 
 Test it:
@@ -118,7 +118,7 @@ I need this because ctrl+shift+v is paste for me and not the default ctrl+v
 ## More Emoji
 
 Even though there are a lot of emojis in the repo, my usage requires more 😁.
-To feed one's greed, they can create the following folder. 
+To feed one's greed, they can create the following folder.
 
 ```sh
 /home/coderhs/.local/share/splatmoji/data
