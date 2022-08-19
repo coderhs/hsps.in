@@ -12,3 +12,12 @@
 * https://redpanthers.co/materialized-views-caching-database-query/
 * https://redpanthers.co/tip-mina-find-last-git-commit-released/
 * AR & VR, how can we make it asynchronous
+* writing a github action and upload the artifacts
+* Copy old articles from tech.hsps.in for acrchive
+* Write a FAQ article like beginners guide to partitioning in PostgreSQL
+* How to write a system trap application using QT and Appindicator
+*  dynamic dns
+* Shell commands with arguments
+* write about owncast
+* Setup induvidual keys in ec2 instances - Done
+* https://stackoverflow.com/questions/7287250/run-migrations-from-rails-console - Done
