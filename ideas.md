@@ -21,3 +21,7 @@
 * write about owncast
 * Setup induvidual keys in ec2 instances - Done
 * https://stackoverflow.com/questions/7287250/run-migrations-from-rails-console - Done
+* docker-machine
+* Set in ruby
+* homelab using virtual-box and docker
+* pihole
