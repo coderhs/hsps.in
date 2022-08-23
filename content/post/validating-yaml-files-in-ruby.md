@@ -44,7 +44,7 @@ YAML stands for "YAML Ain't Markup Language". YAML is a data serialization langu
 
 In simple terms YAML is like XML or JSON, but for human beings rather than computers. I feel this is getting overlooked a lot, programmers need to understand that. Another human like configuration language I like is TOML (Tom's Obvious Minimal Language).
 
-In a static language (like crystal) you need to define the structure of a YAML or JSON file. Defining the structure also act as validation of its schema. Validating the schema is a good idea because it ensure's that all the required data is present. Its better to know data is misisng when your program starts rather than while it is running.
+In a static language (like crystal) you need to define the structure of a YAML or JSON file. Defining the structure also act as validation of its schema. Validating the schema is a good idea because it ensure's that all the required data is present. Its better to know data is missing when your program starts rather than while it is running.
 
 For dynamic language like ruby you can load a yaml file, and ruby will dynamically initialize it. It does make your life easier as a programmer. You don't need to define the schema, and remember to update the schema when you add a new variable to your file.
 
@@ -60,7 +60,7 @@ The library that I use is [`dry-schema`](https://github.com/dry-rb/dry-schema). 
 
  If you want more extensive business logic validation you can use `dry-validation`. In this article I will explain how to use them both with an example from a recent project.
 
-I created a web scrapper to copy articles (my articles) from an old blog to markdown files. Even though it was being written for personal use, I wrote it such a way that I can reuse it for future by me or anyone else. This was a command line application, that allow you to set custom scrapping rule for each domain.
+I created a web scrapper to copy articles (my articles) from an old blog (html files) to markdown files. Even though it was being written for personal use, I wrote it such a way that I can reuse it for future by me or anyone else. This was a command line application, that allow you to set custom scrapping rule for each domain.
 
 I created a `config.yml` file, for the user to define the domain and the custom rule class. The current contents for the file are as follows
 
@@ -74,7 +74,7 @@ domains:
 
 Its an array of hash with `domain` key for the root url and `rule` key defining the class name with the code for scrapping. You can add more domains in future and add custom classes and place them inside the rules folder.
 
-Now to confirm yaml file, we start by adding `gem 'dry-schema'` to the `Gemfile` (followed by `bundle install`). Then added to `main.rb` file (this is file that start my program):
+Now to confirm yaml file, we start by adding `gem 'dry-schema'` to the `Gemfile` (followed by `bundle install`). Then add the following to `main.rb` file (this is file that starts my program):
 
 ```rb
 require 'yaml'
@@ -98,15 +98,15 @@ raise schema_validate.errors.to_h.to_s unless schema_validation.success?
 
 ```
 
-Now if the required format (the keys defined) is not present in our yaml file, this will raise an error.
+Now if the required format (the keys) is not present in our yaml file, this will raise an error.
 
 ```sh
 main.rb:17:in `<main>': {:domains=>{0=>{:rule=>["is missing"]}}} (RuntimeError)
 ```
 
-Now we can take another step further and validate that the domain is filled with a url string. For that we use another gem called `dry-validation`. `dry-validation`, does schema validations as well using the `dry-schema` gem.
+Now we can take another step further and validate that the domain is filled with a url. For that we will use another gem called `dry-validation`. `dry-validation`, also does schema validations using `dry-schema` gem.
 
-For this we create a new ruby file `config_validation.rb` and inside which we write the following code
+We start by creating a new ruby file `config_validation.rb` and inside which we write the following code
 
 ```rb
 class ConfigValidation < Dry::Validation::Contract
@@ -150,6 +150,8 @@ How the error will look like if you pass in invalid URL:
 ```sh
 main.rb:17:in `<main>': {:domains=>{:domain=>{0=>["has invalid format"], 1=>["has invalid format"]}}} (RuntimeError)
 ```
+
+This article is meant to be an intro, you can find more details from the gem's documentation.
 
 Note:
 
