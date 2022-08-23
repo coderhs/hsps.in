@@ -155,3 +155,11 @@ Note:
 
 * If you have extra keys the system will let it through (need to confirm if there is any method to prevent that)
 * You can validate any file or format as long as you can pass it to the call method as a hash or keyword arguments
+
+
+Reference Links:
+
+* [https://dry-rb.org/gems/dry-schema/](https://dry-rb.org/gems/dry-schema/)
+* [https://dry-rb.org/gems/dry-validation/1.8/](https://dry-rb.org/gems/dry-validation/1.8/)
+* [https://yaml.org/](https://yaml.org/)
+* [https://toml.io/en/](https://toml.io/en/)
