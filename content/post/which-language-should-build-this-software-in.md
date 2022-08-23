@@ -1,5 +1,5 @@
 ---
-title: "Which Language Should Build This Software In"
+title: "Which Language Should I Build This Software In"
 date: 2022-08-22T17:43:43-07:00
 lastmod: 2022-08-22T17:43:43-07:00
 draft: false
@@ -39,7 +39,7 @@ sequenceDiagrams:
   options: ""
 
 ---
-**Which Language Should Build This Software In?** or **Which language should I have this software developed In?**
+**Which Language Should I Build This Software In?** or **Which language should I have this software developed In?**
 
 This is a question that software devs gets asked a lot by there friends/colleague who are not part of the software industry. This is my answer to them:
 
