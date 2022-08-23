@@ -25,3 +25,4 @@
 * Set in ruby
 * homelab using virtual-box and docker
 * pihole
+* diff between virtual box and qemu
