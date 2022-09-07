@@ -26,3 +26,9 @@
 * homelab using virtual-box and docker
 * pihole
 * diff between virtual box and qemu
+* create vagrant .box file
+* setup dockerswarm locally using virtual box
+* setup kubernetis cluster using docker
+* use locak package.box in docker
+* setup nfs server in ubuntu
+* about sending the docker API request
