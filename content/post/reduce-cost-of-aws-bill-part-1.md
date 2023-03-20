@@ -58,8 +58,7 @@ The steps I did to reduce AWS Bill:
 
 5. Upgrade the softwares we use. We upgraded Redis, PostgreSQL, web server, OS, etc. All this reduced our CPU and memory usage, for the same load. Resulting in US reducing our Server classes. The most save came from upgrading PostgreSQL from 11.x to 14.6. We are scheduled to upgrade it to 15.2 soon. Amazon only recently launched 15.2 in RDS.
 
-6. Move few of our self hosted softwares to Lightsail. AWS lightsail is a VPS services that amazon provides that allow to launch servers with more predictable cost.
-   1. We are using Lightsail to host:
+6. Move few of our self hosted softwares to Lightsail. AWS lightsail is a VPS services that amazon provides that allow to launch servers with more predictable cost. We are using Lightsail to host:
       1.  ELK Cluster
       2.  Redis
       3.  Memcache (haven't we are considering)
