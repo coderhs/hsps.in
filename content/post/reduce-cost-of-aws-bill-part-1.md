@@ -1,7 +1,7 @@
 ---
 title: "Reduce Cost of Aws Bill - Part 1"
-date: 2023-03-19T19:52:42-08:00
-lastmod: 2023-03-19T20:40:42-08:00
+date: 2023-03-19T19:52:42-07:00
+lastmod: 2023-03-19T20:40:42-07:00
 draft: false
 keywords: ["AWS", "Cloud", "Amazon", "Bill"]
 description: "List of things learned to reduce cost of AWS Bill"
