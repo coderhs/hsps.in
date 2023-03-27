@@ -51,7 +51,8 @@ yarn install
 bundle exec rails assets:precompile
 ```
 
-Docker after building each step it will cache each step, and if the instruction or context hasn't changed then docker will use the cached version instead of rebuilding it.
+Docker after building each step it will cache that step. If the instructions/context of that steps or steps before haven't change then docker will use the cache.
+
 So we need to make docker understand that there is no change, hence we can use the cache instead of rebuilding it.
 
 <!--more-->
