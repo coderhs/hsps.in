@@ -1,10 +1,10 @@
 ---
-title: "Speed Up Docker Build"
+title: "Speed Up Docker Build using cache"
 date: 2023-03-10T20:04:50-08:00
-lastmod: 2023-03-19T20:04:50-08:00
+lastmod: 2023-03-28T14:04:50-08:00
 draft: false
 keywords: ["docker"]
-description: "Breaking up steps to speed up docker build"
+description: "Breaking up steps to speed up docker build using cache"
 tags: ["docker"]
 categories: ["docker"]
 author: "Harisankar P S"
@@ -82,3 +82,5 @@ COPY . .
 ```
 
 Now docker would now use cache seeing that there is no change in the Gemfile, Gemfile.lock, etc. Before docker would have ran bundle and yarn because of any change in any file, will change the hash resulting in rebuilding the remaining steps.
+
+Reference: https://docs.docker.com/build/cache/
