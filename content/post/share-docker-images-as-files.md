@@ -67,7 +67,7 @@ The above command will transfer the file to the home folder.
 Once the file is in the server you can load the image using the `docker load` command.
 
 ```sh
-docker load ./pos_web.tar.gz
+docker load < ./pos_web.tar.gz
 ```
 
 This command will load an image or repository from a tar archive (even if compressed with gzip, bzip2, or xz) from a file or STDIN. It restores both images and tags.
