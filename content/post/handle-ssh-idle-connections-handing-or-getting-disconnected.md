@@ -1,7 +1,7 @@
 ---
 title: "Handle SSH Idle Connections Freezing shell or Getting Disconnected"
-date: 2024-04-04T03:13:24-07:00
-lastmod: 2024-04-04T03:13:24-07:00
+date: 2024-04-04T03:13:24+05:30
+lastmod: 2024-04-04T03:13:24+05:30
 draft: false
 keywords: ["linux", "shell", "ssh", "terminal", "remote"]
 description: "How to prevent your ssh to a remote server does not idle, timeout or freeze."
