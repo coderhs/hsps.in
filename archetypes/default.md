@@ -7,7 +7,7 @@ keywords: []
 description: ""
 tags: []
 categories: []
-author: ""
+author: "Harisankar P S"
 
 # You can also close(false) or open(true) something for this content.
 # P.S. comment can only be closed
@@ -34,7 +34,7 @@ flowchartDiagrams:
   enable: false
   options: ""
 
-sequenceDiagrams: 
+sequenceDiagrams:
   enable: false
   options: ""
 
