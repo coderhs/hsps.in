@@ -1,10 +1,10 @@
 ---
-title: "Using Docker Postgres to Take Sql Dump From AWS RDS"
+title: "Using Docker to export & import data from Amazon RDS"
 date: 2024-09-23T04:38:52-07:00
 lastmod: 2024-09-23T04:38:52-07:00
 draft: false
 keywords: ["aws", "rds", "postgres", "docker"]
-description: "Using Docker Postgres to Take Sql Dump From AWS RDS"
+description: "Using Docker to export & import data from Amazon RDS"
 tags: ["aws", "rds", "postgres", "docker"]
 categories: ["docker", "postgres", "aws"]
 author: "Harisankar P S"
