@@ -72,7 +72,7 @@ I love sharing what I learn, even the simple stuff. As a self learner (and slow 
 * Rails Conf 2018, Pittsburgh, USA
 * Ruby/Elixir Conf Taiwan, 2018
 * I have spoken countless times at Kerala Ruby Meetups
-* Have spoken ones at LA Ruby Meetup
+* Have spoken once at LA Ruby Meetup
 
 {{% /admonition %}}
 
