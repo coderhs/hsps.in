@@ -1,0 +1,19 @@
+{{ if and .IsPage (ne .Params.comment false) -}}
+  <div class="giscus"></div>
+  <script src="https://giscus.app/client.js"
+          data-repo="coderhs/coderhs.github.io"
+          data-repo-id="MDEwOlJlcG9zaXRvcnkyOTE1MzAxMjk="
+          data-category="General"
+          data-category-id="DIC_kwDOEWBlkc4CjKPc"
+          data-mapping="pathname"
+          data-strict="1"
+          data-reactions-enabled="1"
+          data-emit-metadata="1"
+          data-input-position="top"
+          data-theme="light"
+          data-lang="en"
+          data-loading="lazy"
+          crossorigin="anonymous"
+          async>
+  </script>
+{{- end }}
