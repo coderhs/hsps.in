@@ -96,13 +96,18 @@ This article provides a step-by-step guide to setting up an on-demand Tailscale 
    digitalocean_token = "your_digitalocean_token"
    tailscale_auth_key = "your_tailscale_auth_key"
    ssh_fingerprint = "your_ssh_fingerprint"
-   ssh_private_key_path = "path_to_your_private_key"
    digitalocean_location = "desired_location"
    ```
 
    For first-time DigitalOcean users, [sign up here](https://m.do.co/c/07c7e5c8be6f).
 
 4. **Set Up SSH Key**: Upload your SSH public key to DigitalOcean. Retrieve the SSH fingerprint and the private key path. [DigitalOcean's guide](https://docs.digitalocean.com/products/droplets/how-to/add-ssh-keys/) provides detailed instructions.
+
+   Copy your private key to the key folder in the repo, with the name do.
+
+   ```sh
+   cp ~/path/to/private/key ./key/do
+   ```
 
 5. **Create a DigitalOcean Token**: Follow the [DigitalOcean API token guide](https://docs.digitalocean.com/reference/api/create-personal-access-token/) and set the scope to manage droplets.
 
@@ -117,6 +122,13 @@ This article provides a step-by-step guide to setting up an on-demand Tailscale 
      "autoApprovers": {
          "exitNode": ["tag:Connector"],
      },
+     // if You want the exit node to have a static IP in your network then uncomment the below line
+     // "nodeAttrs": [
+	  //	{
+	  //		"target": ["tag:Connector"],
+	  //		"ipPool": ["100.81.0.1/32"],
+	  //	},
+	  // ],
      ```
 
    - Generate an authentication key following [Tailscale’s instructions](https://tailscale.com/kb/1085/auth-keys#generate-an-auth-key). Choose **ephemeral**, **reusable**, and assign the tag **Connector**.
@@ -145,7 +157,7 @@ This article provides a step-by-step guide to setting up an on-demand Tailscale 
      sudo tailscale up --exit-node= --snat-subnet-routes=false
      ```
 
-9. **Destroy the Server**:
+9.  **Destroy the Server**:
 
    ```sh
    terraform destroy
