@@ -48,11 +48,11 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 #   weight = 55
 #   identifier = "projects"
 #   url = "/projects"
-# [[menu.main]]
-#   name = "Contact / Hire me"
-#   weight = 60
-#   identifier = "contact"
-#   url = "/contact"
+[[menu.main]]
+  name = "Contact / Hire me"
+  weight = 60
+  identifier = "contact"
+  url = "/contact"
 
 [params]
   version = "4.x"           # Used to give a friendly message when you have an incompatible update
