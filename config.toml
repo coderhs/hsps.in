@@ -39,15 +39,20 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   identifier = "videos"
   url = "/videos/"
 [[menu.main]]
-  name = "Categories"
-  weight = 40
-  identifier = "categories"
-  url = "/categories/"
-[[menu.main]]
   name = "About"
   weight = 50
   identifier = "about"
   url = "/about"
+# [[menu.main]]
+#   name = "Projects"
+#   weight = 55
+#   identifier = "projects"
+#   url = "/projects"
+# [[menu.main]]
+#   name = "Contact / Hire me"
+#   weight = 60
+#   identifier = "contact"
+#   url = "/contact"
 
 [params]
   version = "4.x"           # Used to give a friendly message when you have an incompatible update
