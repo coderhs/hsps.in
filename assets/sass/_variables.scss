@@ -55,17 +55,17 @@ $global-container-padding: 0 20px !default;
 $global-lineheight: 1.5 !default;
 
 // Font family of the site.
-$global-font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif !default;
+$global-font-family: 'HankenGrotesk', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif !default;
 
 // Serif font family of the site.
-$global-serif-font-family: Athelas, STHeiti, Microsoft Yahei, serif !default;
+$global-serif-font-family: 'HankenGrotesk', Athelas, STHeiti, Microsoft Yahei, serif !default;
 
 // Background color of the site.
 $global-background: $white !default;
 
 // Headings font size of the site.
 $global-headings: (
-  h1: 28px,
+  h1: 30px,
   h2: 26px,
   h3: 24px,
   h4: 22px,
@@ -80,16 +80,10 @@ $header-padding: 20px 20px !default;
 
 // Font family: Chancery
 @font-face {
-  font-family: 'Chancery';
-  src: url('../fonts/chancery/apple-chancery-webfont.eot');
-  src: local('Apple Chancery'), url('../fonts/chancery/apple-chancery-webfont.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/chancery/apple-chancery-webfont.woff2') format('woff2'),
-  url('../fonts/chancery/apple-chancery-webfont.woff') format('woff'),
-  url('../fonts/chancery/apple-chancery-webfont.ttf') format('truetype'),
-  url('../fonts/chancery/apple-chancery-webfont.svg#apple-chancery') format('svg');
-  font-weight: lighter;
+  font-family: 'HankenGrotesk';
+  src: url('/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 // Font size of the logo.
@@ -121,7 +115,7 @@ $post-padding: 1.5em 0 !default;
 $post-border: 1px solid $light-gray !default;
 
 // Font size of post title.
-$post-title-font-size: 27px !default;
+$post-title-font-size: 30px !default;
 
 // Font weight of post title.
 $post-title-font-weight: 400 !default;
