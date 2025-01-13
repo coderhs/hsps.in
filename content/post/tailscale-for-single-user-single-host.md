@@ -3,10 +3,10 @@ title: "Tailscale for Single User Single Host"
 date: 2025-01-08T18:55:49+05:30
 lastmod: 2025-01-08T18:55:49+05:30
 draft: false
-keywords: []
-description: ""
-tags: []
-categories: []
+keywords: ["tailscale", "linux", "programming", "productivity", "single-host"]
+description: "How tailscale can be useful for a person with a single computer"
+tags: ["tailscale", "linux", "programming", "productivity", "single-host"]
+categories: ["tailscale", "productivity"]
 author: "Harisankar P S"
 
 # You can also close(false) or open(true) something for this content.
