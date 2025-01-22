@@ -18,7 +18,7 @@ pygmentsCodefencesGuessSyntax = true
 hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
 paginate = 5                                              # 首页每页显示的文章数
 googleAnalytics = "UA-39547141-1"      # UA-XXXXXXXX-X
-copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
+copyright = "Harisankar P S"            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
 [author]                  # essential                     # 必需
   name = "Harisankar P S"
@@ -190,9 +190,9 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 # See https://gohugo.io/about/hugo-and-gdpr/
 [privacy]
   [privacy.googleAnalytics]
-    anonymizeIP = true      # 12.214.31.144 -> 12.214.31.0
+    anonymizeIP = false      # 12.214.31.144 -> 12.214.31.0
   [privacy.youtube]
-    privacyEnhanced = true
+    privacyEnhanced = false
 
 # see https://gohugo.io/getting-started/configuration-markup
 [markup]
