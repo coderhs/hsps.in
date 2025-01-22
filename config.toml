@@ -1,7 +1,7 @@
 baseURL = "https://hsps.in"
 languageCode = "en"
 defaultContentLanguage = "en"                             # en / zh-cn / ... (This field determines which i18n file to use)
-title = "Harisankar P S | HsPS.in"
+title = "Harisankar P S | Ruby on Rails Developer"
 preserveTaxonomyNames = true
 enableRobotsTXT = true
 enableEmoji = true
@@ -65,8 +65,8 @@ copyright = "Harisankar P S"            # default: author.name ↓        # 默�
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
   logoTitle = "HsPS.in"        # default: the title value    # 默认值: 上面设置的title值
-  keywords = ["Harisankar P S", "software","developer"]
-  description = "Personsal website of Harisankar P S - a software developer, entrepeneuer, dreamer..."
+  keywords = ["Harisankar P S", "software", "developer", "Ruby", "Ruby on Rails", "docker", "linux", "sre", "AWS"]
+  description = "Harisankar P S - Software Engineer specializing in Ruby on Rails"
   slogan = "My thoughts and opinions"
 
   # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
