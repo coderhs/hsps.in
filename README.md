@@ -37,7 +37,7 @@ Clone coderhs.github.io inside your project.
 Delete the public folder, rename 'coderhs.github.io' to folder named 'public'.
 
 ```sh
-rm -f ./public
+rm -Rf ./public
 git clone git@github.com:coderhs/coderhs.github.io.git public
 ```
 
