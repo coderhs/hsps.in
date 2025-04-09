@@ -16,7 +16,7 @@ pygmentsUseClasses = true
 pygmentsCodefencesGuessSyntax = true
 
 hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
-paginate = 5                                              # 首页每页显示的文章数
+pagination.pagerSize = 5                                              # 首页每页显示的文章数
 googleAnalytics = "UA-39547141-1"      # UA-XXXXXXXX-X
 copyright = "Harisankar P S"            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
@@ -34,25 +34,30 @@ copyright = "Harisankar P S"            # default: author.name ↓        # 默�
   identifier = "articles"
   url = "/post/"
 [[menu.main]]
-  name = "Videos"
+  name = "Speaking"
   weight = 30
-  identifier = "videos"
+  identifier = "speaking"
   url = "/videos/"
 [[menu.main]]
   name = "About"
   weight = 50
   identifier = "about"
   url = "/about"
+[[menu.main]]
+  name = "Subscribe"
+  weight = 50
+  identifier = "subscribe"
+  url = "/subscribe"
 # [[menu.main]]
 #   name = "Projects"
 #   weight = 55
 #   identifier = "projects"
 #   url = "/projects"
-[[menu.main]]
-  name = "Hire me"
-  weight = 60
-  identifier = "contact"
-  url = "/contact"
+# [[menu.main]]
+#   name = "Hire me"
+#   weight = 60
+#   identifier = "contact"
+#   url = "/contact"
 
 [params]
   version = "4.x"           # Used to give a friendly message when you have an incompatible update
