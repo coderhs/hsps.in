@@ -73,7 +73,7 @@ From the outside, it looks no different fom hosting it on public server. But eve
 
 ## DNS and Domain Setup
 
-I manage my domain through Cloudflare. It points to the static IP from Lightsail. Cloudflare also gives me basic protection, handles SSL, and helps with fast DNS updates. So if I ever recreate the server, I just re-attach the same static IP and everything keeps working.
+I manage my domain through Cloudflare. It points to the static IP from Lightsail. Cloudflare also gives me basic protection, provides caching, handles SSL, and helps with fast DNS updates. So if I ever recreate the server, I just re-attach the same static IP and everything keeps working.
 
 ## Costs
 
