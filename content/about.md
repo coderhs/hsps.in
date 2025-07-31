@@ -4,10 +4,10 @@ date: 2020-08-29T15:22:34-07:00
 lastmod: 2020-08-29T15:22:34-07:00
 draft: false
 keywords: []
-description: "Harisankar P S"
+description: "Harisankar P S | Profile and resume"
 tags: []
 categories: []
-author: ""
+author: "Harisankar P S"
 
 # You can also close(false) or open(true) something for this content.
 # P.S. comment can only be closed

@@ -48,11 +48,11 @@ copyright = "Harisankar P S"            # default: author.name ↓        # 默�
   weight = 50
   identifier = "subscribe"
   url = "/subscribe"
-# [[menu.main]]
-#   name = "Projects"
-#   weight = 55
-#   identifier = "projects"
-#   url = "/projects"
+[[menu.main]]
+  name = "Projects"
+  weight = 55
+  identifier = "projects"
+  url = "/projects"
 # [[menu.main]]
 #   name = "Hire me"
 #   weight = 60
