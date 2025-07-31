@@ -48,7 +48,7 @@ sequenceDiagrams:
   <!-- Wifi QR -->
   <div class="project-card">
     <div class="project-header">
-      <h3><a href="https://wifi-qr.hsps.in" target="_blank" rel="noopener">Wifi-qr</a></h3>
+      <h3><a href="https://wifi-qr.hsps.in" target="_blank" rel="noopener">Wifi-QR</a></h3>
       <div class="project-tech">Next.js</div> <div class="project-tech">Vercel</div>
     </div>
     <div class="project-description">
@@ -102,6 +102,34 @@ sequenceDiagrams:
     <div class="project-links">
       <a href="https://step-counter.hsps.in/" target="_blank" rel="noopener" class="project-link demo">Live Demo</a>
       <a href="https://github.com/coderhs/step_counter" target="_blank" rel="noopener" class="project-link code">GitHub</a>
+    </div>
+  </div>
+
+  <!-- Easy Client Log -->
+  <div class="project-card">
+    <div class="project-header">
+      <h3><a href="https://easyclientlog.com" target="_blank" rel="noopener">Easy Client Log</a></h3>
+      <div class="project-tech">Next.js</div> <div class="project-tech">Ruby on Rails - 8</div> <div class="project-tech">PostgreSQL</div>
+    </div>
+    <div class="project-description">
+      A simple CRM, Task, Scheduling and Invoice tool for entrepreneurs.
+    </div>
+    <div class="project-links">
+      <a href="https://easyclientlog.com"" target="_blank" rel="noopener" class="project-link demo">Live</a>
+    </div>
+  </div>
+
+  <!-- PgDeploy -->
+  <div class="project-card">
+    <div class="project-header">
+      <h3><a href="https://pgdeploy.com" target="_blank" rel="noopener">PgDeploy</a></h3>
+      <div class="project-tech">Next.js</div> <div class="project-tech">Go/Gin</div> <div class="project-tech">PostgreSQL</div>
+    </div>
+    <div class="project-description">
+      Manage self hosted PostgreSQL in different cloud provider.
+    </div>
+    <div class="project-links">
+      <a href="https://pgdeploy.com"" target="_blank" rel="noopener" class="project-link demo">Live</a>
     </div>
   </div>
 </div>
