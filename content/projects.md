@@ -42,7 +42,7 @@ sequenceDiagrams:
 
 # Projects
 
-<p class="projects-intro">Link to projects I worked on over the years.</p>
+<p class="projects-intro">Link to projects I worked on over the years. There are more in <a href="https://github.com/coderhs" target="_blank" rel="noopener">Github</a>.</p>
 
 <div class="projects-grid">
   <!-- Wifi QR -->
