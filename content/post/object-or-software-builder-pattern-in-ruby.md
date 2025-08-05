@@ -40,14 +40,14 @@ sequenceDiagrams:
 
 ---
 
-Design patterns are only useful when they help solve real-world problems in ways that feel natural in your language. In Ruby, one such pattern that fits like a glove is the **Builder Pattern**.
+Design patterns are only useful when they help solve real world problems in ways that feel natural in your language. In Ruby, one such pattern that fits like a glove is the **Builder Pattern**.
 
-You’ll find it everywhere — from constructing HTML forms in Rails to building command-line interfaces or even assembling HTTP requests.
+You'll find it everywhere, from constructing HTML forms in Rails to building command-line interfaces or even assembling HTTP requests.
 
 
 ## 📦 What Is the Builder Pattern?
 
-In real-world projects, we often model things as objects. The idea is that objects are instances of a common blueprint, sharing the same structure but differing in a few properties—like name, age, etc. However, when there are many properties to configure and you need more control over how the final object is built, that’s where the Builder pattern becomes useful. It helps construct complex objects step-by-step without cluttering your code with long initializers or deeply nested logic.
+In real world projects, we often model things as objects. The idea is that objects are instances of a common blueprint, sharing the same structure but differing in a few properties like name, age, etc. However, when there are many properties to configure and you need more control over how the final object is built, that's where the Builder pattern becomes useful. It helps construct complex objects step by step without cluttering your code with long initializers or deeply nested logic.
 
 The **Builder Pattern** is used to construct complex objects step-by-step. Rather than stuffing all parameters into a huge constructor, you build an object one piece at a time, usually using a **fluent interface** (method chaining).
 
@@ -363,7 +363,7 @@ The core principle is:
 - Compose a final structure (`to_s`, `build`, or `to_json`).
 - Avoid too much meta programming. Clean and simple Ruby is enough.
 
-You don’t need Rails or fancy tooling to write clean DSLs — just plain Ruby and a clear idea of what you want to express.
+You don't need Rails or fancy tooling to write clean DSLs. Just plain Ruby and a clear idea of what you want to express.
 
 ## Important notes / Don't over Engineer
 
@@ -383,9 +383,9 @@ more maintainable and testable solution.
 
 ## Conclusion
 
-The builder pattern is one of those quiet heroes in software design. Whether you're building cars, HTML forms in Rails, JSON payloads, API requests, or CLI commands—anywhere you need to construct something complex step by step—it gives you a clean, readable way to do it. You've probably used it without realizing it (like form_with in Rails), and once you spot the pattern, you’ll start seeing it everywhere.
+The builder pattern is one of those quiet heroes in software design. Whether you're building cars, HTML forms in Rails, JSON payloads, API requests, or CLI commands, anywhere you need to construct something complex step by step, it gives you a clean, readable way to do it. You've probably used it without realizing it (like form_with in Rails), and once you spot the pattern, you'll start seeing it everywhere.
 
-It’s not just about cleaner code—it’s about giving your future self (and teammates) a better way to read, maintain, and extend that code without headaches.
+It's not just about cleaner code. It's about giving your future self (and teammates) a better way to read, maintain, and extend that code without headaches.
 
 So next time you find yourself passing 12 arguments into a constructor or setting a bunch of properties in random order, take a step back and ask: would a builder make this easier? Odds are, it will.
 
