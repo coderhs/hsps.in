@@ -4,7 +4,7 @@ date: 2024-10-04T02:11:12-07:00
 lastmod: 2024-10-04T02:11:12-07:00
 draft: false
 keywords: ["linux", "saned", "scanner"]
-description: ""
+description: "How to enable the SANE test scanner emulator on Linux for development and testing without a physical scanner device."
 tags: ["linux", "saned", "scanner"]
 categories: ["linux"]
 author: "Harisankar P S"

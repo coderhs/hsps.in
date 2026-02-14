@@ -4,7 +4,7 @@ date: 2022-05-31T20:10:36-07:00
 lastmod: 2022-05-31T20:10:36-07:00
 draft: false
 keywords: ["Rails", "ruby"]
-description: ""
+description: "How to use string values instead of integers with Active Record enums in Rails for more readable database queries and code."
 tags: ["ruby", "rails"]
 categories: ["rails tips"]
 author: "Harisankar P S"

@@ -4,7 +4,7 @@ date: 2022-06-01T21:48:39-07:00
 lastmod: 2022-06-01T21:48:39-07:00
 draft: true
 keywords: []
-description: ""
+description: "A reading list of books read and in progress during 2022, including titles by Lee Child, Isaac Asimov, and Stephen King."
 tags: []
 categories: ["Reading"]
 author: "Harisankar P S"

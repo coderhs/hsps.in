@@ -4,7 +4,7 @@ date: 2024-10-08T20:11:58-07:00
 lastmod: 2024-10-08T20:11:58-07:00
 draft: false
 keywords: ["tailscale", "on-demand", "VPN", "Digital Ocean", "terraform", "server"]
-description: ""
+description: "Step-by-step guide to creating an on-demand Tailscale exit node on DigitalOcean using Terraform for cost-effective, flexible VPN access."
 tags: ["tailscale", "on-demand", "VPN", "Digital Ocean", "terraform", "server"]
 categories: ["tailscale", "terraform"]
 author: "Harisankar P S"
@@ -12,7 +12,7 @@ author: "Harisankar P S"
 # You can also close(false) or open(true) something for this content.
 # P.S. comment can only be closed
 comment: true
-toc: false
+toc: true
 autoCollapseToc: false
 postMetaInFooter: false
 hiddenFromHomePage: false

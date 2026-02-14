@@ -4,7 +4,7 @@ date: 2022-08-22T17:43:43-07:00
 lastmod: 2022-08-22T17:43:43-07:00
 draft: false
 keywords: ["thoughts", "startup", "advice", "non tech", "engineering"]
-description: ""
+description: "Advice for non-technical founders on choosing a technology stack, hiring developers, and building software products step by step."
 tags: ["thoughts", "startup", "advice", "non tech", "engineering"]
 categories: ["thoughts", "startup"]
 author: "Harisankar P S"

@@ -4,7 +4,7 @@ date: 2012-11-27
 lastmod: 2020-09-05T12:38:45-07:00
 draft: false
 keywords: ['Tech', 'PostgreSQL']
-description: ""
+description: "How to install PostgreSQL and its development libraries on Ubuntu and CentOS to build the pg gem for Ruby on Rails."
 tags: []
 categories: []
 author: ""

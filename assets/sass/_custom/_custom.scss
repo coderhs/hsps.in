@@ -1,0 +1,307 @@
+// ==============================
+// Custom styles for hsps.in
+// ==============================
+
+// ========== Reading Progress Bar ========== //
+.reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background: linear-gradient(90deg, $theme-color, darken($theme-color, 10%));
+  z-index: 9999;
+  transition: width 0.1s ease-out;
+}
+
+// ========== Better Code Blocks ========== //
+.highlight > .chroma {
+  position: relative;
+
+  // Copy button
+  .copy-code-btn {
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    padding: 2px 8px;
+    font-size: 12px;
+    font-family: $global-font-family;
+    color: $dark-gray;
+    background: rgba($white, 0.7);
+    border: 1px solid $light-gray;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    z-index: 10;
+
+    &:hover {
+      background: rgba($white, 0.9);
+      color: $global-font-color;
+    }
+  }
+
+  &:hover .copy-code-btn {
+    opacity: 1;
+  }
+}
+
+// Also for highlight.js blocks
+figure.highlight {
+  position: relative;
+
+  .copy-code-btn {
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    padding: 2px 8px;
+    font-size: 12px;
+    font-family: $global-font-family;
+    color: $dark-gray;
+    background: rgba($white, 0.7);
+    border: 1px solid $light-gray;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    z-index: 10;
+
+    &:hover {
+      background: rgba($white, 0.9);
+      color: $global-font-color;
+    }
+  }
+
+  &:hover .copy-code-btn {
+    opacity: 1;
+  }
+}
+
+// Improve code block padding
+code, pre {
+  border-radius: 6px;
+}
+
+// ========== Author Bio & Subscribe ========== //
+.author-post-intro {
+  margin-top: 2em;
+  padding: 1.5em;
+  background: rgba($deputy-color, 0.5);
+  border-radius: 8px;
+  border-left: 4px solid $theme-color;
+
+  p {
+    text-align: justify;
+    margin-bottom: 0.8em;
+    line-height: 1.6;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  a {
+    color: $theme-color;
+    font-weight: 500;
+  }
+}
+
+.author-subscribe {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: 1px solid $light-gray;
+
+  .subscribe-label {
+    font-size: 0.9em;
+    font-weight: 500;
+    color: $global-font-color;
+    margin-bottom: 0.5em;
+  }
+}
+
+.subscribe-form-row {
+  display: flex;
+  gap: 8px;
+  max-width: 500px;
+
+  .formkit-input {
+    flex: 1;
+    padding: 10px 14px;
+    font-size: 15px;
+    font-family: $global-font-family;
+    border: 1px solid $light-gray;
+    border-radius: 6px;
+    background: $white;
+    color: $global-font-color;
+    transition: border-color 0.2s ease;
+
+    &:focus {
+      outline: none;
+      border-color: $theme-color;
+    }
+
+    &::placeholder {
+      color: $dark-gray;
+      opacity: 0.7;
+    }
+  }
+
+  .formkit-submit {
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family: $global-font-family;
+    font-weight: 500;
+    color: $white;
+    background: $theme-color;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    position: relative;
+
+    &:hover {
+      background: darken($theme-color, 8%);
+    }
+
+    span {
+      display: block;
+    }
+  }
+}
+
+.formkit-alert-error:empty {
+  display: none;
+}
+
+.formkit-spinner {
+  display: none;
+}
+
+// ========== In-post Subscribe CTA ========== //
+.post-subscribe-cta {
+  margin: 2em 0;
+  padding: 1.2em 1.5em;
+  background: linear-gradient(135deg, rgba($theme-color, 0.05), rgba($theme-color, 0.1));
+  border: 1px solid rgba($theme-color, 0.15);
+  border-radius: 8px;
+  text-align: center;
+
+  .cta-text {
+    font-size: 0.95em;
+    color: $global-font-color;
+    margin-bottom: 0.8em;
+
+    strong {
+      color: $theme-color;
+    }
+  }
+
+  .subscribe-form-row {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+
+// ========== Related Posts ========== //
+.related-posts {
+  margin-top: 2em;
+  padding-top: 1.5em;
+  border-top: 2px solid $light-gray;
+
+  h3 {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 1em;
+    color: $global-font-color;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    padding: 0.5em 0;
+    border-bottom: 1px solid rgba($light-gray, 0.5);
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  a {
+    color: $theme-color;
+    font-size: 0.95em;
+
+    &:hover {
+      border-bottom: 1px solid $theme-color;
+    }
+  }
+
+  .related-post-date {
+    font-size: 0.8em;
+    color: $dark-gray;
+    margin-left: 0.5em;
+  }
+}
+
+// ========== Post Content Improvements ========== //
+.post-content {
+  // Better paragraph spacing
+  p {
+    margin-bottom: 1.2em;
+  }
+
+  // Better heading spacing
+  h2 {
+    margin-top: 2em;
+    margin-bottom: 0.8em;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid $light-gray;
+    font-weight: 600;
+  }
+
+  h3 {
+    margin-top: 1.5em;
+    margin-bottom: 0.6em;
+    font-weight: 600;
+  }
+
+  // Better list styling
+  ul, ol {
+    margin-bottom: 1.2em;
+    padding-left: 1.5em;
+
+    li {
+      margin-bottom: 0.3em;
+    }
+  }
+
+  // Better blockquote
+  blockquote {
+    border-radius: 0 6px 6px 0;
+    font-style: italic;
+  }
+
+  // Better image display
+  img {
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+
+// ========== Mobile Responsive ========== //
+@media (max-width: 600px) {
+  .subscribe-form-row {
+    flex-direction: column;
+
+    .formkit-submit {
+      width: 100%;
+    }
+  }
+
+  .post-subscribe-cta .subscribe-form-row {
+    max-width: 100%;
+  }
+}

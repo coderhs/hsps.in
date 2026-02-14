@@ -4,7 +4,7 @@ date: 2013-05-23T00:00:00-05:30
 lastmod: 2022-08-20T22:22:45-07:00
 draft: false
 keywords: ["gem", "sublime", "vscode"]
-description: ""
+description: "How to open and browse the source code of any Ruby gem using the bundle open command with your preferred editor."
 tags: ["gem", "sublime", "vscode"]
 categories: ["ruby", "development"]
 author: "Harisankar P S"

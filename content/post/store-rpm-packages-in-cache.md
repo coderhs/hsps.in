@@ -4,7 +4,7 @@ date: 2012-01-29T00:00:00-05:30
 lastmod: 2022-08-20T22:29:09-07:00
 draft: false
 keywords: ["cache", "centos", "downloadonly", "local", "mirror", "packages", "redhat", "repositories", "RHCE", "RPM", "tutorial", "yum", "yum", "install", "yum", "update"]
-description: ""
+description: "How to cache downloaded RPM packages in CentOS and Red Hat by configuring yum keepcache or using the downloadonly plugin."
 tags: ["cache", "centos", "downloadonly", "local", "mirror", "packages", "redhat", "repositories", "RHCE", "RPM", "tutorial", "yum", "yum", "install", "yum", "update"]
 categories: ["red-hat", "rpm"]
 author: "Harisankar P S"

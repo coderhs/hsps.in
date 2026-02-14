@@ -40,37 +40,37 @@ $dark-gray: #8a8a8a !default;
 
 // ========== Global ========== //
 // Text color of the body.
-$global-font-color: #34495e !default;
+$global-font-color: #2c3e50 !default;
 
 // Font size attribute applied to '<html>' and '<body>'.
-$global-font-size: 20px !default;
+$global-font-size: 17px !default;
 
 // Global width of '<body>'.
-$global-body-width: 800px !default;
+$global-body-width: 880px !default;
 
 // Padding of container main
 $global-container-padding: 0 20px !default;
 
-// Default line height for all type. `$global-lineheight` is 24px while `$global-font-size` is 16px.
-$global-lineheight: 1.5 !default;
+// Default line height for all type.
+$global-lineheight: 1.7 !default;
 
 // Font family of the site.
-$global-font-family: 'HankenGrotesk', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif !default;
+$global-font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif !default;
 
 // Serif font family of the site.
-$global-serif-font-family: 'HankenGrotesk', Athelas, STHeiti, Microsoft Yahei, serif !default;
+$global-serif-font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !default;
 
 // Background color of the site.
 $global-background: $white !default;
 
 // Headings font size of the site.
 $global-headings: (
-  h1: 30px,
-  h2: 26px,
-  h3: 24px,
-  h4: 22px,
-  h5: 20px,
-  h6: 20px
+  h1: 28px,
+  h2: 24px,
+  h3: 20px,
+  h4: 18px,
+  h5: 16px,
+  h6: 16px
 ) !default;
 
 
@@ -80,17 +80,23 @@ $header-padding: 20px 20px !default;
 
 // Font family: Chancery
 @font-face {
-  font-family: 'HankenGrotesk';
-  src: url('/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
-  font-weight: normal;
+  font-family: 'Chancery';
+  src: url('../fonts/chancery/apple-chancery-webfont.eot');
+  src: local('Apple Chancery'), url('../fonts/chancery/apple-chancery-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/chancery/apple-chancery-webfont.woff2') format('woff2'),
+  url('../fonts/chancery/apple-chancery-webfont.woff') format('woff'),
+  url('../fonts/chancery/apple-chancery-webfont.ttf') format('truetype'),
+  url('../fonts/chancery/apple-chancery-webfont.svg#apple-chancery') format('svg');
+  font-weight: lighter;
   font-style: normal;
+  font-display: swap;
 }
 
 // Font size of the logo.
 $logo-font-size: 48px !default;
 
 // Font family of the logo.
-$logo-font-family: 'HankenGrotesk', cursive, LiSu, sans-serif !default;
+$logo-font-family: 'Chancery', cursive, LiSu, sans-serif !default;
 
 // Margin of menu item.
 $menu-item-margin-left: 10px !default;
@@ -115,10 +121,10 @@ $post-padding: 1.5em 0 !default;
 $post-border: 1px solid $light-gray !default;
 
 // Font size of post title.
-$post-title-font-size: 30px !default;
+$post-title-font-size: 28px !default;
 
 // Font weight of post title.
-$post-title-font-weight: 400 !default;
+$post-title-font-weight: 600 !default;
 
 // Margin top of the post meta (post time).
 $post-meta-margin-top: 5px !default;
@@ -185,10 +191,10 @@ $content-table-border-color: darken($deputy-color, 3%) !default;
 $code-color: #c7254e !default;
 
 // Font size of code.
-$code-font-size: 0.9em !default;
+$code-font-size: 0.875em !default;
 
 // Font family of the code.
-$code-font-family: Consolas, Monaco, Menlo, "DejaVu Sans Mono",
+$code-font-family: 'JetBrains Mono', Consolas, Monaco, Menlo, "DejaVu Sans Mono",
  "Bitstream Vera Sans Mono", "Courier New", monospace !default;
 
 // Color of code highlight, solarized.

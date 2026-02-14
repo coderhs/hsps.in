@@ -4,7 +4,7 @@ date: 2013-06-11T00:00:00-05:30
 lastmod: 2013-06-11T00:00:00-05:30
 draft: false
 keywords: ["code", "Harisankar", "P", "S", "network", "programming", "ruby", "ruby 1.9.", "twitter", "url"]
-description: ""
+description: "How to resolve short URLs like bit.ly links to their original long URLs using Ruby and Net::HTTP response headers."
 tags: ["code", "Harisankar", "P", "S", "network", "programming", "ruby", "ruby 1.9.", "twitter", "url"]
 categories: ["Scirpt"]
 author: "Harisankar P S"

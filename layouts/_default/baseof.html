@@ -1,0 +1,93 @@
+{{ if ne .Site.Params.version "4.x" -}}
+  {{ errorf "\n\nThere are two possible situations that led to this error:\n  1. You haven't copied the config.toml yet. See https://github.com/olOwOlo/hugo-theme-even#installation \n  2. You have an incompatible update. See https://github.com/olOwOlo/hugo-theme-even/blob/master/CHANGELOG.md#400-2018-11-06 \n\n" -}}
+{{ end -}}
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>
+    {{- block "title" . -}}
+      {{ if .IsPage }}{{ .Title }} - {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}
+    {{- end -}}
+  </title>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  {{- if .IsPage }}
+  <div class="reading-progress" id="reading-progress"></div>
+  {{- end }}
+  {{ partial "slideout.html" . }}
+  <div class="container" id="mobile-panel">
+    {{ if not .Params.hideHeaderAndFooter -}}
+    <header id="header" class="header">
+        {{ partial "header.html" . }}
+    </header>
+    {{- end }}
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          {{ block "content" . }}{{ end }}
+        </div>
+        {{ partial "comments.html" . }}
+      </div>
+    </main>
+
+    {{ if not .Params.hideHeaderAndFooter -}}
+    <footer id="footer" class="footer">
+      {{ partial "footer.html" . }}
+    </footer>
+    {{- end }}
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  {{ partial "scripts.html" . }}
+
+  {{- if .IsPage }}
+  <!-- Reading progress bar -->
+  <script>
+    (function() {
+      var progressBar = document.getElementById('reading-progress');
+      if (!progressBar) return;
+      window.addEventListener('scroll', function() {
+        var scrollTop = window.scrollY || document.documentElement.scrollTop;
+        var docHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        if (docHeight > 0) {
+          var scrollPercent = (scrollTop / docHeight) * 100;
+          progressBar.style.width = scrollPercent + '%';
+        }
+      });
+    })();
+  </script>
+  {{- end }}
+
+  <!-- Copy code button -->
+  <script>
+    (function() {
+      var codeBlocks = document.querySelectorAll('.highlight > .chroma, figure.highlight');
+      codeBlocks.forEach(function(block) {
+        var btn = document.createElement('button');
+        btn.className = 'copy-code-btn';
+        btn.textContent = 'Copy';
+        btn.addEventListener('click', function() {
+          var code = block.querySelector('code');
+          if (!code) {
+            code = block.querySelector('.code pre');
+          }
+          if (code) {
+            navigator.clipboard.writeText(code.textContent).then(function() {
+              btn.textContent = 'Copied!';
+              setTimeout(function() { btn.textContent = 'Copy'; }, 2000);
+            });
+          }
+        });
+        block.style.position = 'relative';
+        block.appendChild(btn);
+      });
+    })();
+  </script>
+</body>
+</html>

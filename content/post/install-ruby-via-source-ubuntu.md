@@ -4,7 +4,7 @@ date: 2012-11-15
 lastmod: 2012-11-15
 draft: false
 keywords: []
-description: ""
+description: "Step-by-step guide to installing Ruby from source code on Ubuntu, including required dependencies and Rails setup."
 tags: []
 categories: ['Tech', 'Ruby', 'Linux']
 author: ""

@@ -4,7 +4,7 @@ date: 2022-05-17T17:21:51-07:00
 lastmod: 2022-05-17T17:21:51-07:00
 draft: false
 keywords: []
-description: ""
+description: "A quick Rails tip to count the total number of routes in your application using Rails.application.routes from the console."
 tags: ['Rails']
 categories: ['TIL']
 author: ""

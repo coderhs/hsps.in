@@ -4,7 +4,7 @@ date: 2012-01-25T00:07:30-07:00
 lastmod: 2012-01-25T00:07:30-07:00
 draft: false
 keywords: ["default", "download", "install", "linux.", "probuntu", "programming", "reinstall", "setup", "software", "softwares", "tool", "ubuntu", "UCK"]
-description: ""
+description: "How to create a custom Ubuntu ISO with preinstalled software using Ubuntu Customization Kit (UCK) to avoid reinstalling packages."
 tags: ["default", "download", "install", "linux.", "probuntu", "programming", "reinstall", "setup", "software", "softwares", "tool", "ubuntu", "UCK"]
 categories: ["ubuntu", "linux", "custom"]
 author: "Harisankar P S"

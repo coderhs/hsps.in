@@ -4,7 +4,7 @@ date: 2014-08-20T00:00:00-05:30
 lastmod: 2014-08-20T00:00:00-05:30
 draft: false
 keywords: ["4.2.0.", "active", "job", "adequate", "record.", "global", "id", "rails"]
-description: ""
+description: "Review of Rails 4.2.0 beta features including Active Job, Global ID, Adequate Record performance improvements, and web console."
 tags: ["4.2.0.", "active", "job", "adequate", "record.", "global", "id", "rails"]
 categories: ["Rails", "review"]
 author: "Harisankar P S"

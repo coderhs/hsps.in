@@ -4,7 +4,7 @@ date: 2013-09-25T00:00:00-05:30
 lastmod: 2013-09-25T00:00:00-05:30
 draft: false
 keywords: ["argument", "code", "parameter", "ruby", "ruby 2.0", "splat"]
-description: ""
+description: "Guide to Ruby splat (*) and double splat (**) operators for handling variable arguments, converting arrays to hashes, and more."
 tags: ["argument", "code", "parameter", "ruby", "ruby 2.0", "splat"]
 categories: ["TIL", "Ruby"]
 author: "Harisankar P S"

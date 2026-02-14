@@ -4,7 +4,7 @@ date: 2022-08-22T21:27:34-07:00
 lastmod: 2022-08-22T21:27:34-07:00
 draft: false
 keywords: ["yaml", "dry-schema", "dry-validation", "yaml", "toml", "schema", "structure", "ruby", "software engineering", "best practice"]
-description: ""
+description: "How to validate YAML configuration files in Ruby using dry-schema and dry-validation gems with practical examples."
 tags: ["yaml", "dry-schema", "dry-validation", "yaml", "toml", "schema", "structure", "ruby", "software engineering", "best practice"]
 categories: ["ruby", "yaml", "gems"]
 author: "Harisankar P S"

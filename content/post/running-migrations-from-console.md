@@ -4,7 +4,7 @@ date: 2022-07-19T23:15:19-07:00
 lastmod: 2022-07-19T23:15:19-07:00
 draft: false
 keywords: ["rails", "til", "database", "console", "irb"]
-description: ""
+description: "How to run Rails database migrations directly from the console, useful for multi-tenant apps using the Apartment gem."
 tags: ["rails", "til", "database", "console", "irb"]
 categories: ["rails", "til", "Apartment"]
 author: "Harisankar P S"

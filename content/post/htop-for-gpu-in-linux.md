@@ -4,7 +4,7 @@ date: 2022-06-12T17:02:57-07:00
 lastmod: 2022-06-12T17:02:57-07:00
 draft: false
 keywords: ["linux", "GPU", "gaming", "benchmarking"]
-description: ""
+description: "GPU monitoring tools for Linux: nvtop and gpustat for NVIDIA, intel_gpu_top for Intel, and radeontop for AMD graphics cards."
 tags: ["til", "Linux", "command"]
 categories: ["linux"]
 author: "Harisankar P S"

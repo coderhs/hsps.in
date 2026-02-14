@@ -4,7 +4,7 @@ date: 2022-05-21T20:52:57-07:00
 lastmod: 2022-05-21T20:52:57-07:00
 draft: false
 keywords: ['experience', 'web 2.0']
-description: ""
+description: "A personal reflection on how PHP and MySQL introduced a developer to real-world web programming and its lasting impact."
 tags: ['php', 'experience', 'personal']
 categories: []
 author: "Harisankar P S"

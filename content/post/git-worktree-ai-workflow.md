@@ -9,7 +9,7 @@ tags: ["git", "workflow", "productivity", "AI"]
 categories: ["Git", "Productivity"]
 author: "Harisankar P S"
 comment: true
-toc: false
+toc: true
 autoCollapseToc: false
 postMetaInFooter: false
 hiddenFromHomePage: false

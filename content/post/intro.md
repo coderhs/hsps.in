@@ -4,7 +4,7 @@ date: 2020-08-29T14:58:11-07:00
 lastmod: 2020-08-29T14:58:11-07:00
 draft: true
 keywords: []
-description: ""
+description: "About Harisankar P S, a software developer and technical blogger."
 tags: []
 categories: []
 author: ""

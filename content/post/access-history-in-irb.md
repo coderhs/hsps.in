@@ -4,7 +4,7 @@ date: 2022-07-17T13:15:49-07:00
 lastmod: 2022-07-17T13:15:49-07:00
 draft: false
 keywords: ["ruby", "rails", "irb", "til"]
-description: ""
+description: "How to access and search your command history in Ruby IRB and Rails console using Readline::HISTORY."
 tags: ["ruby", "rails", "irb", "til"]
 categories: ["ruby", "rails", "irb", "til"]
 author: "Harisankar P S"

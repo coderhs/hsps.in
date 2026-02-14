@@ -50,6 +50,22 @@
         </div>
       {{- end -}}
 
+      <!-- Related Posts -->
+      {{ $related := .Site.RegularPages.Related . | first 5 }}
+      {{ with $related }}
+        <div class="related-posts">
+          <h3>Related Articles</h3>
+          <ul>
+            {{ range . }}
+              <li>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                <span class="related-post-date">{{ .Date.Format "2006-01-02" }}</span>
+              </li>
+            {{ end }}
+          </ul>
+        </div>
+      {{ end }}
+
       {{- partial "post/about_blog_author.html" . -}}
 
       <!-- Post Pagination -->

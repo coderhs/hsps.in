@@ -4,7 +4,7 @@ date: 2022-06-08T14:47:32-07:00
 lastmod: 2022-06-08T14:47:32-07:00
 draft: false
 keywords: ["bash", "linux", "ubuntu", "til"]
-description: ""
+description: "How to append text to a file in Bash using the >> operator, with examples and a warning about the > overwrite operator."
 tags: ["bash", "linux", "ubuntu", "til"]
 categories: ["bash", "ubuntu"]
 author: "Harisankar P S"

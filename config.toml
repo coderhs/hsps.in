@@ -84,7 +84,7 @@ copyright = "Harisankar P S"            # default: author.name ↓        # 默�
   dateFormatToUse = "2006-01-02"
 
   # show word count and read time ?                       # 是否显示字数统计与阅读时间
-  moreMeta = false
+  moreMeta = true
 
   # Syntax highlighting by highlight.js
   highlightInClient = false

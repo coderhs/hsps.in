@@ -1,0 +1,87 @@
+{{- $font := resources.Get "fonts/Inter-Bold.ttf" -}}
+{{- $fontRegular := resources.Get "fonts/Inter-Regular.ttf" -}}
+{{- $base := resources.Get "images/og-base.png" -}}
+
+{{- if and $font $base -}}
+  {{- $title := .Title -}}
+  {{- $date := .Date.Format "Jan 02, 2006" -}}
+  {{- $author := "Harisankar P S" -}}
+  {{- $meta := printf "%s, %s" $date $author -}}
+
+  {{/* Truncate very long titles */}}
+  {{- if gt (len $title) 100 -}}
+    {{- $title = printf "%s..." (substr $title 0 97) -}}
+  {{- end -}}
+
+  {{/* Start with base image */}}
+  {{- $img := $base.Resize "1200x" -}}
+
+  {{/* Title — short titles get big font, long titles get smaller */}}
+  {{- if gt (len $title) 60 -}}
+    {{- $img = $img.Filter (images.Text $title (dict
+      "color" "#FFFFFF"
+      "size" 44
+      "linespacing" 14
+      "x" 70
+      "y" 80
+      "font" $font
+    )) -}}
+  {{- else if gt (len $title) 40 -}}
+    {{- $img = $img.Filter (images.Text $title (dict
+      "color" "#FFFFFF"
+      "size" 52
+      "linespacing" 16
+      "x" 70
+      "y" 80
+      "font" $font
+    )) -}}
+  {{- else -}}
+    {{- $img = $img.Filter (images.Text $title (dict
+      "color" "#FFFFFF"
+      "size" 64
+      "linespacing" 20
+      "x" 70
+      "y" 80
+      "font" $font
+    )) -}}
+  {{- end -}}
+
+  {{/* Date + Author */}}
+  {{- $img = $img.Filter (images.Text $meta (dict
+    "color" "#D0D3F0"
+    "size" 26
+    "x" 70
+    "y" 500
+    "font" $fontRegular
+  )) -}}
+
+  {{/* hsps.in */}}
+  {{- $img = $img.Filter (images.Text "hsps.in" (dict
+    "color" "#C0C4E8"
+    "size" 24
+    "x" 70
+    "y" 550
+    "font" $fontRegular
+  )) -}}
+
+  {{/* Tech icons in bottom-right corner */}}
+  {{- $ruby := resources.Get "images/icons/ruby.png" -}}
+  {{- $db := resources.Get "images/icons/db.png" -}}
+  {{- $cloud := resources.Get "images/icons/cloud.png" -}}
+  {{- $rails := resources.Get "images/icons/rails.png" -}}
+
+  {{- if $ruby -}}
+    {{- $img = $img.Filter (images.Overlay $ruby 840 545) -}}
+  {{- end -}}
+  {{- if $db -}}
+    {{- $img = $img.Filter (images.Overlay $db 920 545) -}}
+  {{- end -}}
+  {{- if $cloud -}}
+    {{- $img = $img.Filter (images.Overlay $cloud 1000 545) -}}
+  {{- end -}}
+  {{- if $rails -}}
+    {{- $img = $img.Filter (images.Overlay $rails 1080 545) -}}
+  {{- end -}}
+
+  {{- $img.RelPermalink -}}
+{{- end -}}

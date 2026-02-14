@@ -4,7 +4,7 @@ date: 2025-04-19T20:13:34+05:30
 lastmod: 2025-04-19T20:13:34+05:30
 draft: false
 keywords: []
-description: ""
+description: "Learn how to use Ruby Object#tap for debugging method chains, configuring objects inline, and building cleaner DSLs with practical examples."
 tags: []
 categories: []
 author: "Harisankar P S"
@@ -12,7 +12,7 @@ author: "Harisankar P S"
 # You can also close(false) or open(true) something for this content.
 # P.S. comment can only be closed
 comment: true
-toc: false
+toc: true
 autoCollapseToc: false
 postMetaInFooter: false
 hiddenFromHomePage: false

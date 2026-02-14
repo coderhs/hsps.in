@@ -4,7 +4,7 @@ date: 2022-07-01T22:58:41-07:00
 lastmod: 2022-07-01T22:58:41-07:00
 draft: false
 keywords: ["SSH", "AWS", "EC2", "Linux", "Shell"]
-description: ""
+description: "How to add SSH keys for multiple users on an AWS EC2 instance by generating key pairs and updating authorized_keys."
 tags: ["SSH", "AWS", "EC2", "Linux", "Shell"]
 categories: ["AWS", "Linux"]
 author: "Harisankar P S"

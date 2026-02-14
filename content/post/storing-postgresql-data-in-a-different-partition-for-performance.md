@@ -4,7 +4,7 @@ date: 2025-01-15T18:20:19+05:30
 lastmod: 2025-01-15T18:20:19+05:30
 draft: false
 keywords: ["postgresql", "database", "performance", "linux", "os-level"]
-description: ""
+description: "Learn how to store PostgreSQL data on a separate partition to improve disk I/O performance, isolate workloads, and simplify backups on Linux."
 tags: ["postgresql", "database", "performance", "linux", "os-level"]
 categories: ["postgresql"]
 author: "Harisankar P S"
@@ -12,7 +12,7 @@ author: "Harisankar P S"
 # You can also close(false) or open(true) something for this content.
 # P.S. comment can only be closed
 comment: true
-toc: false
+toc: true
 autoCollapseToc: false
 postMetaInFooter: false
 hiddenFromHomePage: false

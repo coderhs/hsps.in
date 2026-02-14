@@ -4,7 +4,7 @@ date: 2013-01-23
 lastmod: 2013-01-23
 draft: false
 keywords: []
-description: ""
+description: "Key differences between update_attribute and update_attributes in Rails, including validation behavior and usage examples."
 tags: []
 categories: ['Rails']
 author: ""

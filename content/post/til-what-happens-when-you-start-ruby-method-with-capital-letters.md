@@ -4,7 +4,7 @@ date: 2016-05-01T00:00:00+05:30
 lastmod: 2020-08-30T11:46:25-07:00
 draft: false
 keywords: ['Ruby', 'Class', 'Objects', 'Basics']
-description: ""
+description: "What happens when you define a Ruby method starting with a capital letter, and why parentheses are required to call it."
 tags: ['Ruby', 'Tech']
 categories: ['TIL']
 author: "Harisankar P S"

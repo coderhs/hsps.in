@@ -4,7 +4,7 @@ date: 2022-09-04T11:36:43-07:00
 lastmod: 2022-09-04T11:36:43-07:00
 draft: false
 keywords: ["homelab", "dns", "server", "linux", "dnsmasq"]
-description: ""
+description: "How to configure wildcard DNS domains in Pi-hole using custom dnsmasq configuration files for homelab setups."
 tags: ["homelab", "dns", "server", "linux", "dnsmasq"]
 categories: ["homelab"]
 author: "Harisankar P S"
