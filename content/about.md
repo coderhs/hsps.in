@@ -1,10 +1,10 @@
 ---
 title: "About"
 date: 2020-08-29T15:22:34-07:00
-lastmod: 2020-08-29T15:22:34-07:00
+lastmod: 2026-02-14T00:00:00+05:30
 draft: false
 keywords: []
-description: "Harisankar P S | Profile and resume"
+description: "Harisankar P S | Technical Lead - Ruby on Rails, PostgreSQL, Cloud Infrastructure"
 tags: []
 categories: []
 author: "Harisankar P S"
@@ -42,50 +42,48 @@ sequenceDiagrams:
 
 <!--more-->
 
-# About Harisankar P S (HsPS)
+# Harisankar P S
 
-I am a free spirited, free thinking, technology and open source enthusiast. I have been building web based software(s), some way or the other, for the past 14 years (since 2006). Started with customizing PHP scripts like PHP-Fusion, Joomla, Drupal, etc for personal projects, to the present professional development using Ruby on Rails and React.JS/Vue.Js. In between those years, I have also dabbled **[1]** in many technologies such as Python, Java, Erlang, Lua, Elixir, Crystal Lang, Go, Typescript, to name a few.
+**Technical Lead** | Ruby on Rails, PostgreSQL, Cloud Infrastructure
 
-I love working with servers, orchestrating them to run in unison like a musical symphony.
+I build fast, reliable web applications and the infrastructure to run them. With 15+ years of professional experience shipping software, I specialize in Ruby on Rails architecture, PostgreSQL performance optimization, and cloud deployments on AWS.
 
-{{% admonition info "" %}}
-For some people driving fast cars is what makes them high, for me it's making web app run faster.
-{{% /admonition %}}
+Currently working as a **Technical Lead**, previously ran my own software consultancy. I also build and maintain [open source tools](https://github.com/coderhs).
 
-My creed in my work, life, and business:
+## What I Do
 
-{{% admonition quote "quote" %}}
-Simple but Jada **[2]**
-{{% /admonition %}}
+- **Backend Architecture** -- Ruby on Rails (through Rails 8.1), API design, background processing with Sidekiq
+- **Database Engineering** -- PostgreSQL (read/write replication, high availability deployments, GIN indexes, query optimization), schema design
+- **Cloud & DevOps** -- AWS (ECS/Fargate, RDS, EC2, S3), Docker, Terraform, Nginx, Linux server administration
+- **Full-Stack Development** -- Next.js, React, Vue.js, Go
+- **Infrastructure** -- Tailscale networking, self-hosted deployments, CI/CD pipelines
 
-## As a speaker
+## Conference Speaking
 
-I love sharing what I learn, even the simple stuff. As a self learner (and slow learner) myself, I have gained tremendous knowledge and life changing inspiration from those who take the effort to explain the small & complicated stuff in much detail. I try to do the same by speaking, coaching, and helping beginners.
+I've spoken at international conferences on topics like database-driven application performance and building resilient systems. Recordings of my talks are on the [Videos](/videos/) page.
 
-{{% admonition success "Few Technical Conf/Meetups where i got an opportunity to speak" %}}
+- **[RailsConf 2018](https://www.youtube.com/watch?v=3hYlghzakow)**, Pittsburgh, USA -- *Using databases to pull your application weight*
+- **[Ruby Conf Philippines 2018](https://www.youtube.com/watch?v=F7_jbT8g3Qw)** -- *Embracing Failures to Avoid Meltdown*
+- **[Ruby/Elixir Conf Taiwan 2018](https://www.youtube.com/watch?v=jLf3SxF-7o4)** -- *Embracing failures to prevent meltdown*
+- **[Ruby Conf Taiwan 2016](https://www.youtube.com/watch?v=zJnFepGZWME)** -- *Using database to pull your applications weight*
+- **[PostgreSQL Conf India 2017](https://www.youtube.com/watch?v=NG2NHVflg_g)** -- *Using databases to pull your application weight*
+- **[Deccan Ruby Conf 2017](https://www.youtube.com/watch?v=zFHRyHjYhrw)**, **South East Ruby 2017** (Nashville, USA)
+- Regular speaker at **Kerala Ruby Meetups** and **LA Ruby Meetup**
 
-* Ruby Conf Taiwan, 2016
-* Deccan Ruby Conf, 2017
-* PostgreSQL Conf India, 2017
-* South Easy Ruby, 2017 (Nashville, USA)
-* Ruby Conf Philippines, 2018
-* Rails Conf 2018, Pittsburgh, USA
-* Ruby/Elixir Conf Taiwan, 2018
-* I have spoken countless times at Kerala Ruby Meetups
-* Have spoken once at LA Ruby Meetup
-
-{{% /admonition %}}
-
-I have also spoken as an advocate for open source, diversity in tech, entrepreneurship, Linux, etc.
-
-I have given trainings and workshops for students and working professionals in Ruby on Rails as well.
+I also give trainings and workshops on Ruby on Rails for students and working professionals, and speak on open source, diversity in tech, and entrepreneurship.
 
 ## Work Experience
 
-Professionally I have always been an entrepreneur working as a freelance programmer, consultant, building products, and managing my own software development company.
+I have been building web software since 2006 -- starting with PHP (Joomla, Drupal, PHP-Fusion), moving into Ruby on Rails and modern full-stack development. Beyond Ruby, I have production experience in Go, Python, Crystal, Elixir, Java, and TypeScript.
 
+Currently a **Technical Lead**, where I lead the development of a major application -- driving architecture decisions, enforcing best practices, and ensuring code quality across the stack. Prior to this, I ran my own software development consultancy -- working as a freelance architect, consultant, and product builder for clients across industries.
 
-{{% admonition note "Notes" true %}}
-* **[1]** For me to say I dabbled or know a language, I would have written minimum of 1000+ lines of code in the language (and had someone pay me to write a script/program/solution for them in the said language)
-* **[2]** Jada is a term in my primary language malayalam meaning Amazing
-{{% /admonition %}}
+## Get in Touch
+
+Open to consulting, contract work, and interesting technical challenges.
+
+- **Email**: [projects@hsps.in](mailto:projects@hsps.in)
+- **GitHub**: [github.com/coderhs](https://github.com/coderhs)
+- **LinkedIn**: [linkedin.com/in/coderhs](https://www.linkedin.com/in/coderhs)
+- **Mastodon**: [@coderhs@ruby.social](https://ruby.social/@coderhs)
+- **Rails Contributions**: [contributors.rubyonrails.org](https://contributors.rubyonrails.org/contributors/harisankar-p-s/commits)
