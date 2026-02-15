@@ -52,7 +52,7 @@ Currently working as a **Technical Lead**, previously ran my own software consul
 
 ## What I Do
 
-- **Backend Architecture** -- Ruby on Rails (through Rails 8.1), API design, background processing with Sidekiq
+- **Backend Architecture** -- Ruby on Rails (through Rails 8.1), API design, background processing with Sidekiq. Upgraded hundreds of Rails applications from as far back as Rails 2.3 all the way to Rails 8.1
 - **Database Engineering** -- PostgreSQL (read/write replication, high availability deployments, GIN indexes, query optimization), schema design
 - **Cloud & DevOps** -- AWS (ECS/Fargate, RDS, EC2, S3), Docker, Terraform, Nginx, Linux server administration
 - **Full-Stack Development** -- Next.js, React, Vue.js, Go
