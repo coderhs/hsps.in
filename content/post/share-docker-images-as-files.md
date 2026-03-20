@@ -4,7 +4,7 @@ date: 2023-03-26T21:27:35-07:00
 lastmod: 2023-03-26T21:27:35-07:00
 draft: false
 keywords: ["docker", "files"]
-description: "Share Docker Images as Files"
+description: "How to export Docker images as tar files with docker save, transfer them via SCP, and load them on another machine with docker load."
 tags: ["docker", "linux", "basic admin", "administration"]
 categories: ["docker"]
 author: "Harisankar P S"

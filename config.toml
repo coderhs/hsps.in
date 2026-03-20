@@ -15,9 +15,9 @@ pygmentsCodefences = true
 pygmentsUseClasses = true
 pygmentsCodefencesGuessSyntax = true
 
-hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
+hasCJKLanguage = false    # has chinese/japanese/korean ?
 pagination.pagerSize = 5                                              # 首页每页显示的文章数
-googleAnalytics = "UA-39547141-1"      # UA-XXXXXXXX-X
+googleAnalytics = ""                   # GA4 is configured in header.html via gtag.js
 copyright = "Harisankar P S"            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
 [author]                  # essential                     # 必需

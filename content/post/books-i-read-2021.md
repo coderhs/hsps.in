@@ -4,7 +4,7 @@ date: 2022-02-17T10:03:49-08:00
 lastmod: 2022-02-17T10:03:49-08:00
 draft: false
 keywords: ['books', 'reading']
-description: "List of books I read in 2021."
+description: "My 2021 reading list with 8 books including Psychology of Money, Obama's Promised Land, Lee Child thrillers, and more quick reviews."
 tags: []
 categories: []
 author: "Harisankar P S"

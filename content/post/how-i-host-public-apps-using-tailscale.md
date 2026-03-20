@@ -4,7 +4,7 @@ date: 2025-06-18T23:09:32+05:30
 lastmod: 2025-06-18T23:09:32+05:30
 draft: false
 keywords: ["tailscale", "homelab", "devops", "docker", "hosting"]
-description: "How I Use Tailscale to Host a Public App From My Laptop"
+description: "How I use Tailscale, AWS Lightsail, and Nginx Proxy Manager to serve a public web app from my home laptop with zero hosting costs."
 tags: ["tailscale", "homelab", "devops", "docker", "hosting"]
 categories: ["homelab", "tailscale"]
 author: "Harisankar P S"

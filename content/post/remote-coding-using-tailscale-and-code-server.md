@@ -4,7 +4,7 @@ date: 2022-07-03T13:52:46-07:00
 lastmod: 2022-07-03T13:52:46-07:00
 draft: false
 keywords: ["Remote Development", "shell", "programming", "vs-code"]
-description: "Coding in your dev machine from your tablet/phone remotely"
+description: "Set up remote development using Tailscale VPN and code-server to access VS Code on your home machine from any tablet or phone."
 tags: []
 categories: ["remote", "homelab", "dev", "vscode"]
 author: "Harisankar P S"

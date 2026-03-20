@@ -4,7 +4,7 @@ date: 2022-05-19T21:01:23-07:00
 lastmod: 2022-05-19T21:01:23-07:00
 draft: false
 keywords: ["PostgreSQL", 'GIN']
-description: "Intro to inverted index and GIN index"
+description: "Learn how PostgreSQL GIN indexes work, when to use them over B-Tree, and how to create them in SQL and Rails for fast text search."
 tags: ["PostgreSQL", 'database']
 categories: []
 author: "Harisankar P S"

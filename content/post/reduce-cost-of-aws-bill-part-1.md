@@ -4,7 +4,7 @@ date: 2023-03-19T19:52:42-07:00
 lastmod: 2023-03-19T20:40:42-07:00
 draft: false
 keywords: ["AWS", "Cloud", "Amazon", "Bill"]
-description: "List of things learned to reduce cost of AWS Bill"
+description: "Six practical ways to cut your AWS bill, from cleaning up old snapshots and unused IPs to optimizing availability zones and CloudFront."
 tags: ["AWS", "Cloud", "Amazon", "Bill"]
 categories: ["AWS", "Cloud", "Amazon", "Bill"]
 author: "Harisankar P S"

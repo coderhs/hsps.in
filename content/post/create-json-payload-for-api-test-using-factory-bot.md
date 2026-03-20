@@ -4,7 +4,7 @@ date: 2023-08-05T23:06:27-07:00
 lastmod: 2023-08-05T23:06:27-07:00
 draft: false
 keywords: ["rails", "tdd", "testing", "factory-bot", "mini-test", "rspec"]
-description: "Create JSON Payload for API Test Using Factory Bot"
+description: "Use Factory Bot with a custom OpenStruct subclass to generate JSON payloads for Rails API tests, including nested objects and associations."
 tags: ["rails", "tdd", "testing", "factory-bot", "mini-test", "rspec"]
 categories: ["rails", "TDD"]
 author: "Harisankar P S"

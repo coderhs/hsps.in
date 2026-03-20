@@ -4,7 +4,7 @@ date: 2025-08-05T10:57:22+05:30
 lastmod: 2025-08-05T10:57:22+05:30
 draft: false
 keywords: ["builder", "software", "development", "pattern", "ruby", "api", "html", "json"]
-description: "Implementation and example of Builder pattern in ruby"
+description: "Learn the Builder pattern in Ruby with practical examples including HTML form builders, CLI commands, JSON construction, and API requests."
 tags: ["builder", "software", "development", "pattern", "ruby", "api", "html", "json"]
 categories: ["Software Design Pattern"]
 author: "Harisankar P S"

@@ -4,7 +4,7 @@ date: 2023-08-30T15:48:25-07:00
 lastmod: 2023-08-30T15:48:25-07:00
 draft: false
 keywords: ["thoughts", "opinions"]
-description: "Argument for writing tests"
+description: "Why automated testing matters for software teams, and how the argument against TDD mirrors resistance to automation itself."
 tags: ["opinions", "test", "tdd"]
 categories: ["opinions"]
 author: "Harisankar P S"

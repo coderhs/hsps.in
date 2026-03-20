@@ -4,7 +4,7 @@ date: 2024-10-24T10:19:48-07:00
 lastmod: 2024-10-24T10:19:48-07:00
 draft: false
 keywords: ["postgresql", "master-slave", "database", "read-only", "replication", "node"]
-description: "Setup read-replica for your postgresql 17 Database"
+description: "Step-by-step guide to configuring a PostgreSQL 17 read replica on Linux using pg_basebackup, streaming replication, and standby signals."
 tags: ["project-pg_spider", "performance", "database", "postgresql"]
 categories: ["postgresql"]
 author: "Harisankar P S"

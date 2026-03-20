@@ -3,8 +3,8 @@ title: "About"
 date: 2020-08-29T15:22:34-07:00
 lastmod: 2026-02-14T00:00:00+05:30
 draft: false
-keywords: []
-description: "Harisankar P S | Technical Lead - Ruby on Rails, PostgreSQL, Cloud Infrastructure"
+keywords: ["Harisankar P S", "Ruby on Rails developer", "technical lead", "PostgreSQL", "cloud infrastructure", "software engineer"]
+description: "About Harisankar P S — Technical Lead specializing in Ruby on Rails, PostgreSQL, and cloud infrastructure. Building scalable web applications and contributing to open source."
 tags: []
 categories: []
 author: "Harisankar P S"

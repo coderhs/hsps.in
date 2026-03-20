@@ -4,7 +4,7 @@ date: 2024-09-23T04:38:52-07:00
 lastmod: 2024-09-23T04:38:52-07:00
 draft: false
 keywords: ["aws", "rds", "postgres", "docker"]
-description: "Using Docker to export & import data from Amazon RDS"
+description: "Use a Docker PostgreSQL container to run pg_dump and pg_restore against AWS RDS, avoiding version mismatch errors on your local machine."
 tags: ["aws", "rds", "postgres", "docker"]
 categories: ["docker", "postgres", "aws"]
 author: "Harisankar P S"

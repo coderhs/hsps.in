@@ -4,7 +4,7 @@ date: 2023-07-30T00:10:21-07:00
 lastmod: 2023-07-30T00:10:21-07:00
 draft: false
 keywords: ["ecs", "fargate", "aws", "ruby", "sidekiq"]
-description: "Sidekiq Graceful Shutdown in Fargate ECS"
+description: "Why Sidekiq loses jobs during ECS Fargate deployments and how to fix it using tini so SIGTERM reaches the worker process correctly."
 tags: ["ecs", "fargate", "aws", "ruby", "sidekiq"]
 categories: ["ECS", "Sidekiq", "Fargate"]
 author: "Harisankar P S"

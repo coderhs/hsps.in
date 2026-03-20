@@ -4,7 +4,7 @@ date: 2022-06-12T10:49:39-07:00
 lastmod: 2022-06-12T10:49:39-07:00
 draft: false
 keywords: ["Website", "CSS", "Design"]
-description: "Setting up dark theme in a hugo blog"
+description: "How I added dark mode to my Hugo blog using Darkmode.js and custom SCSS overrides, with tips on LCD vs OLED rendering differences."
 tags: ["css", "design"]
 categories: []
 author: "Harisankar P S"

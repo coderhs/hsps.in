@@ -4,7 +4,7 @@ date: 2024-10-07T21:09:36-07:00
 lastmod: 2024-10-07T21:09:36-07:00
 draft: false
 keywords: ["rails", "mailer", "action-mailer"]
-description: "Change action mailer settings from rails console"
+description: "How to temporarily override ActionMailer SMTP settings from the Rails console for testing email delivery or troubleshooting configuration issues."
 tags: ["rails", "mailer", "action-mailer"]
 categories: ["rails"]
 author: "Harisankar P S"

@@ -4,7 +4,7 @@ date: 2021-02-13T15:04:42-08:00
 lastmod: 2021-02-13T15:04:42-08:00
 draft: false
 keywords: ['books', 'reading']
-description: "List of books I read in 2020, just a review."
+description: "Reviews of 8 books I read in 2020 -- from Stephen King and Neil Gaiman fiction to Courage to be Disliked and Jeffery Archer thrillers."
 tags: []
 categories: []
 author: "Harisankar P S"

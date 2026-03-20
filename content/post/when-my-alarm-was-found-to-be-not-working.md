@@ -4,7 +4,7 @@ date: 2013-03-15
 lastmod: 2020-09-18
 draft: false
 keywords: []
-description: "When My Alarm Was Found to Be Not Working"
+description: "A quick Ruby script that acts as an alarm clock, using VLC at max volume to wake you up when your phone alarm stops working."
 tags: ['ruby']
 categories: []
 author: "Harisankar P S"

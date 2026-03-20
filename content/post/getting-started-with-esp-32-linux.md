@@ -4,7 +4,7 @@ date: 2022-08-04T00:42:04-07:00
 lastmod: 2022-08-04T00:42:04-07:00
 draft: false
 keywords: ["esp32", "micro controller", "arduino", "linux", "programming", "c++", "python", "wifi", "bluetooth"]
-description: "Getting Started With ESP 32 Development in Linux using Arduino"
+description: "Set up Arduino IDE on Linux for ESP32 development, flash your first program, run a WiFi scan, and control the onboard LED via HTTP server."
 tags: ["esp32", "micro controller", "arduino", "linux", "programming", "c++", "python", "wifi", "bluetooth"]
 categories: ["esp32"]
 author: "Harisankar P S"

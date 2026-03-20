@@ -4,7 +4,7 @@ date: 2022-08-01T18:59:18-07:00
 lastmod: 2022-08-01T18:59:18-07:00
 draft: false
 keywords: ["emoji", "keyboard", "KDE", "linux", "kubuntu", "splatmoji", "xdotool", "xsel", "rofi", "shortcut", "emoji keyboard"]
-description: "Setup an emoji keyboard linux macOS"
+description: "How to set up a macOS-style emoji keyboard on Linux KDE using Splatmoji, Rofi, and custom keyboard shortcuts for quick access."
 tags: ["emoji", "keyboard", "KDE", "linux", "kubuntu", "splatmoji", "xdotool", "xsel", "rofi", "shortcut", "emoji keyboard"]
 categories: []
 author: "Harisankar P S"

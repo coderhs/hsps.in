@@ -4,7 +4,7 @@ date: 2012-12-05
 lastmod: 2012-12-05
 draft: false
 keywords: ['Ruby', 'Linux', 'bash', 'shell', 'unix']
-description: "Make Self Executing Ruby Scripts Linux"
+description: "Learn how to use the shebang (#!) line and chmod to make Ruby scripts self-executing on Linux without typing the ruby command every time."
 tags: ['Ruby', 'Linux', 'bash', 'shell', 'unix']
 categories: ['Linux', 'Tech']
 author: ""

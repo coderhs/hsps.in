@@ -4,7 +4,7 @@ date: 2025-07-08T18:31:49+05:30
 lastmod: 2025-07-08T18:31:49+05:30
 draft: false
 keywords: ["rail", "current attributes", "thread safe", "scope"]
-description: "Deep dive into Rails.current_attributes (ActiveSupport::CurrentAttributes)"
+description: "How ActiveSupport::CurrentAttributes works in Rails, why it replaced Thread.current, and how to use it safely in controllers, Sidekiq jobs, and tests."
 tags: ["rails", "thread"]
 categories: ["rails"]
 author: "Harisankar P S"

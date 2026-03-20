@@ -4,7 +4,7 @@ date: 2023-08-01T17:01:37-07:00
 lastmod: 2023-08-01T17:01:37-07:00
 draft: false
 keywords: ["rails", "docker", "build", "system", "devops"]
-description: "Rails Copy Assets bundler Cache to Speed Up Build"
+description: "Speed up Rails Docker builds by copying precompiled assets and node_modules from a previous image so asset precompilation runs incrementally."
 tags: ["rails", "docker", "build", "system", "devops"]
 categories: ["docker", "rails"]
 author: "Harisankar P S"

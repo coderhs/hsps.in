@@ -4,7 +4,7 @@ date: 2022-09-06T20:21:42-07:00
 lastmod: 2022-09-06T20:21:42-07:00
 draft: false
 keywords: ["docker", "http", "api", "remote", "linux", "ubuntu"]
-description: "Enable Docker Remote Api on Docker Host"
+description: "Step-by-step instructions to enable the Docker Remote API over HTTP on a Linux host, including systemd config and firewall setup."
 tags: ["docker", "http", "api", "remote", "linux", "ubuntu"]
 categories: ["docker"]
 author: "Harisankar P S"

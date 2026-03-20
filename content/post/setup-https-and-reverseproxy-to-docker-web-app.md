@@ -4,7 +4,7 @@ date: 2023-08-03T22:31:40-07:00
 lastmod: 2023-08-03T22:31:40-07:00
 draft: false
 keywords: ["nginx", "docker", "docker-compose", "setup", "proxy"]
-description: "Setup HTTP(s) and Reverse Proxy to Docker Web App"
+description: "Configure Nginx as an HTTPS reverse proxy for a Docker web app using docker-compose, with SSL termination and automatic HTTP-to-HTTPS redirect."
 tags: ["nginx", "docker", "docker-compose", "setup", "proxy"]
 categories: ["Docker", "devops"]
 author: "Harisankar P S"

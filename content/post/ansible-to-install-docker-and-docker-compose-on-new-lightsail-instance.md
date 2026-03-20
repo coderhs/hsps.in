@@ -4,7 +4,7 @@ date: 2023-08-06T21:59:35-07:00
 lastmod: 2023-08-06T21:59:35-07:00
 draft: false
 keywords: ["ansible", "docker", "docker-compose", "playbook", "linux-admin", "ubuntu"]
-description: "Using Ansible to Install Docker and Docker Compose on New Lightsail Instance"
+description: "An Ansible playbook that automates installing Docker and Docker Compose on a fresh AWS Lightsail Ubuntu instance, with inventory setup and SSH config."
 tags: ["ansible", "docker", "docker-compose", "playbook", "linux-admin", "ubuntu"]
 categories: ["ansible"]
 author: "Harisankar P S"

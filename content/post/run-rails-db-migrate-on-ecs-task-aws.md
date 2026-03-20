@@ -4,7 +4,7 @@ date: 2024-10-10T00:05:58-07:00
 lastmod: 2024-10-10T00:05:58-07:00
 draft: false
 keywords: ["aws", "ecs", "rails", "db", "migrate"]
-description: "Running Rails Migrations in AWS ECS Using AWS CLI "
+description: "Run rails db:migrate on AWS ECS Fargate using the AWS CLI with container overrides, and automate it as part of your CodeBuild deployment pipeline."
 tags: ["aws", "ecs", "rails", "db", "migrate"]
 categories: ["aws", "rails"]
 author: "Harisankar P S"

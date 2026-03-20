@@ -4,7 +4,7 @@ date: 2012-01-14T00:07:30-07:00
 lastmod: 2012-01-14T00:07:30-07:00
 draft: false
 keywords: []
-description: "First Blog Post"
+description: "The very first post on this blog -- a Ruby developer's hello world moment and the start of a long-running technical writing journey."
 tags: []
 categories: []
 author: "Harisankar P S"

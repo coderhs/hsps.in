@@ -3,8 +3,8 @@ title: "Projects | Open Source and Others"
 date: 2022-06-05T15:22:34-07:00
 lastmod: 2020-06-05T15:22:34-07:00
 draft: false
-keywords: []
-description: "Harisankar P S"
+keywords: ["open source", "Ruby", "Rails", "projects", "Harisankar P S"]
+description: "Open source projects and side projects by Harisankar P S — Ruby gems, Rails tools, and developer utilities."
 tags: ["projects"]
 categories: ["projects"]
 author: "Harisankar P S"
