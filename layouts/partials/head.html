@@ -99,7 +99,7 @@
 {{- end }}
 <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" />
 <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}" />
-<meta property="article:author" content="{{ .Site.Params.Author.name }}" />
+<meta property="article:author" content="{{ .Params.author | default .Site.Params.authorName | default .Site.Title }}" />
 {{- with .Params.tags }}{{ range . }}
 <meta property="article:tag" content="{{ . }}" />
 {{- end }}{{ end }}
@@ -137,30 +137,30 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": {{ .Title | jsonify }},
-  "url": {{ .Permalink | jsonify }},
+  "headline": {{ .Title | jsonify | safeJS }},
+  "url": {{ .Permalink | jsonify | safeJS }},
   "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
   "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
   "author": {
     "@type": "Person",
-    "name": {{ .Site.Params.Author.name | jsonify }},
+    "name": {{ (.Params.author | default .Site.Params.authorName) | jsonify | safeJS }},
     "url": "https://hsps.in/about"
   },
   "publisher": {
     "@type": "Person",
-    "name": {{ .Site.Params.Author.name | jsonify }}
+    "name": {{ (.Params.author | default .Site.Params.authorName) | jsonify | safeJS }}
   },
-  "description": {{ if .Description }}{{ .Description | jsonify }}{{ else }}{{ .Summary | plainify | truncate 200 | jsonify }}{{ end }},
+  "description": {{ if .Description }}{{ .Description | jsonify | safeJS }}{{ else }}{{ .Summary | plainify | truncate 200 | jsonify | safeJS }}{{ end }},
   "wordCount": {{ .WordCount }},
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": {{ .Permalink | jsonify }}
+    "@id": {{ .Permalink | jsonify | safeJS }}
   }
   {{- with $ogImage }},
-  "image": {{ . | absURL | jsonify }}
+  "image": {{ . | absURL | jsonify | safeJS }}
   {{- end }}
   {{- with .Params.tags }},
-  "keywords": {{ . | jsonify }}
+  "keywords": {{ . | jsonify | safeJS }}
   {{- end }}
 }
 </script>
@@ -174,19 +174,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": {{ .Site.BaseURL | jsonify }}
+      "item": {{ .Site.BaseURL | jsonify | safeJS }}
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Articles",
-      "item": {{ "post/" | absURL | jsonify }}
+      "item": {{ "post/" | absURL | jsonify | safeJS }}
     },
     {
       "@type": "ListItem",
       "position": 3,
-      "name": {{ .Title | jsonify }},
-      "item": {{ .Permalink | jsonify }}
+      "name": {{ .Title | jsonify | safeJS }},
+      "item": {{ .Permalink | jsonify | safeJS }}
     }
   ]
 }
@@ -196,12 +196,12 @@
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": {{ .Site.Title | jsonify }},
-  "url": {{ .Site.BaseURL | jsonify }},
-  "description": {{ .Site.Params.description | jsonify }},
+  "name": {{ .Site.Title | jsonify | safeJS }},
+  "url": {{ .Site.BaseURL | jsonify | safeJS }},
+  "description": {{ .Site.Params.description | jsonify | safeJS }},
   "author": {
     "@type": "Person",
-    "name": {{ .Site.Params.Author.name | jsonify }}
+    "name": {{ .Site.Params.authorName | default .Site.Title | jsonify | safeJS }}
   }
 }
 </script>
