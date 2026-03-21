@@ -266,7 +266,7 @@ For a small team or personal project, this is fine. For a large team, coordinate
 | `.git` directory | 285 MB | 12 MB |
 | Working directory | 194 MB | 5 MB |
 | **Total** | **486 MB** | **17 MB** |
-| Clone time | ~45s | ~2s |
+| Clone time | ~10 min | < 10s |
 | Largest image | 10 MB | 84 KB |
 | Page load (images) | Painful | Fast |
 
