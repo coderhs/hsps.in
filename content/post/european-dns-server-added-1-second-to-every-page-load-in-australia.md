@@ -1,10 +1,10 @@
 ---
 title: "How a European DNS Server Added 1 Second to Every Page Load in Australia"
-date: 2026-03-21T13:18:25+05:30
-lastmod: 2026-03-21T13:18:25+05:30
+date: 2026-03-05T13:18:25+05:30
+lastmod: 2026-03-05T13:18:25+05:30
 draft: false
 keywords: ["DNS", "CDN", "GeoDNS", "EDNS Client Subnet", "Bunny CDN", "Rails", "performance", "latency", "Australia"]
-description: "A Sydney Rails server was taking 1 second to fetch from a CDN with a Sydney edge. The cause: a European DNS resolver that broke GeoDNS routing, sending traffic through Canada and Germany."
+description: "Our Sydney server took 1 second to fetch from a CDN with a local edge. The cause: a European DNS resolver routing traffic through Canada and Germany."
 tags: ["devops", "performance", "DNS", "CDN", "rails"]
 categories: ["DevOps"]
 author: "Harisankar P S"
